@@ -2,7 +2,7 @@
 .post-grid,
 .post-content {
   display: grid;
-  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 65ch) minmax(1.2rem, 1fr);
 }
 .post-content {
   padding-bottom:var(--spacing-lg);

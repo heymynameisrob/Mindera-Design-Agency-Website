@@ -87,6 +87,9 @@ h1 + p {
 h2 + p {
   --type-size:calc(var(--type-size__h2) / 2);
 }
+h3 + p {
+  --type-size:calc(var(--type-size__h3) / 2);
+}
 
 small {
   font-size:var(--type-size__small);  

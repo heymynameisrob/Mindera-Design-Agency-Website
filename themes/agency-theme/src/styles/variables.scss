@@ -11,13 +11,13 @@
   --colour-grey__dark:#888;
   --colour-grey__darkest:#444;
   --colour-black:#222;
-  --color-bg:#000;
+  --color-bg:#111;
   
 
   --type-stack__headline:'Mabry', -system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --type-stack__body:'Inter', -system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --type-colour__primary:rgba(255,255,255,1);
-  --type-colour__secondary:rgba(255,255,255,0.75);
+  --type-colour__primary:rgba(255,255,255,0.9);
+  --type-colour__secondary:rgba(255,255,255,0.6);
   --type-colour__black:var(--type-colour__primary);
   --type-colour__grey:var(--type-colour__secondary);
   
@@ -26,15 +26,15 @@
   --type-size__h3:1.75rem;
   --type-size__h4:1.25rem;
   --type-size__h5:0.75rem;
-  --type-size__body-1:1rem;
-  --type-size__body-2:0.75rem;
+  --type-size__body-1:1.125rem;
+  --type-size__body-2:1rem;
   --type-size__small:0.75rem;
   
   --type-baseline:calc(1rem * 1.25);  
   --type-lg__headline:1.2;
-  --type-lh__body:1.6;
+  --type-lh__body:1.75;
   
-  --type-spacing__headline:0.5em;
+  --type-spacing__headline:0.75em;
   --type-spacing__body:1em;
 
   --spacing-xxs:0.5rem;
@@ -58,14 +58,14 @@
 
 @media(min-width:56rem) {
   :root {
-    --type-size__h1:3.5rem;
-    --type-size__h2:2.5rem;
-    --type-size__h3:2rem;
-    --type-size__h4:1.5rem;
+    --type-size__h1:4rem;
+    --type-size__h2:2.75rem;
+    --type-size__h3:2.5rem;
+    --type-size__h4:2rem;
     --type-size__h5:0.85rem;
-    --type-size__body-1:1.125rem;
-    --type-size__body-2:1rem;
-    --type-size__small:0.75rem;
+    --type-size__body-1:1.25rem;
+    --type-size__body-2:1.125rem;
+    --type-size__small:1rem;
   }
   
 }

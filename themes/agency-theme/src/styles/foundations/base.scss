@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 
-html {  
-  font-size: calc(1rem + ((100vw - 550px) / 250));
-  // font-size:100%;
+html {    
+  font-size:100%;
   line-height:1.25;    
   text-size-adjust: 100%;
   font-variant-ligatures: contextual common-ligatures;

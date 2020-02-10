@@ -16,28 +16,16 @@
   background-color:var(--colour-black);
   height:100%;  
   text-align:left;
-}
-.card--package span {
-  display:inline-block;
-  padding:0.25rem 0.5rem;
-  border-radius:var(--border-radius);
-  color:var(--colour-grey);
-  background-color: var(--colour-grey__darkest);
-}
-.card--package header {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: left;
-  margin-bottom:1rem;
 
   h3 {
-    margin:0;
+    margin:0 0 var(--spacing-sm) 0;
   }  
   svg {
     display:none;
-    max-width: 4rem;
+    width: 4em;
+    max-width:96px;
     height:auto;
+    margin:0 0 var(--spacing-sm) 0;
 
     @media(min-width:56rem) {
       display:block;            
@@ -45,7 +33,7 @@
   }
 }
 .card--package p {
-  max-width:30ch;
+  max-width:40ch;
 
   strong {
     display:block;

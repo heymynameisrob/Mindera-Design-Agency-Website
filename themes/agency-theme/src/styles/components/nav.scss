@@ -1,6 +1,6 @@
 nav[role="navigation"] {
   display:block;    
-  background-color:#000;
+  background-color:var(--color-bg);
 }
 @media(min-width:56rem) {
   nav[role="navigation"] {
@@ -75,17 +75,12 @@ nav .nav-links li:last-of-type a {
 }
 nav .nav-links li a {
   display:inline-block;
-  padding:var(--spacing-xs);
-  font-size:1.25em;
+  padding:var(--spacing-xs);  
   border-radius:var(--border-radius);
   background-color:transparent;
   color:var(--type-colour__secondary);
   text-decoration: none;
   transition: all .2s ease;
-
-  @media(min-width:56rem) {
-    font-size:1em;
-  }
 }
 nav .nav-links li a:hover,
 nav .nav-links li a:focus,

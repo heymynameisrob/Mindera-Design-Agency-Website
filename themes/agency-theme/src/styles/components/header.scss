@@ -15,14 +15,16 @@ header[role="banner"] h1 {
   max-width:15ch;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:var(--spacing-md);
 }
 header[role="banner"] p {
   max-width:55ch;
-  margin-left:auto;
+  margin-left:auto;  
   margin-right:auto;
+  margin-bottom:var(--spacing-md);
 }
 header[role="banner"] .button {
-  width:100%;
+  width:100%;  
 
   @media(min-width:56rem) {
     width:auto;
@@ -62,13 +64,12 @@ section header.section-header {
 
 .backer-img {
   position:absolute;
-  top:0;
+  top:80px;
   left:0;
   right:0;
   height:100vh;
   z-index:-1;
-  opacity:0.15;
-  background-position:center center;
+  background-position:0 15%;
 }
 .backer-img::after {
   content:'';
@@ -77,6 +78,6 @@ section header.section-header {
   left:0;
   right:0;
   height:50vh;
-  background: linear-gradient(-180deg, transparent, black);
+  background: linear-gradient(-180deg, transparent, #111);
   z-index: 1;
 }
