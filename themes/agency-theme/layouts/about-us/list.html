@@ -1,0 +1,133 @@
+{{ define "main" }}
+<main>
+  {{ .Scratch.Set "title" .Title }}
+  {{ .Scratch.Set "desc" .Description }}
+  {{ partial "page-header" .}}
+  <section class="l-block" id="about-pitch">
+    <div class="l-inner">
+      <grid columns="2">
+        <c>
+          <aside>
+            <img class="js-lazy-img rounded" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+              alt="Design is a super power" />
+          </aside>
+        </c>
+        <c>
+          <article>
+            <h2>A different kind of agency</h2>
+            <p>When you pay for a design agency, at least half of your budget is going to waste. A lot of work is spent
+              going in circles, ticking boxes and has absolutely no value for you.</p>
+            <p>Our agency is different. We’re built to be lean and collaborative. We are dedicated to creating the best
+              products and services, without wasting your time or budget.</p>
+            <p><strong>Strike Design Labs are part of the Mindera Group, built to be a radically different approach to
+                designing products.</strong></p>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block" id="team">
+    <div class="l-inner">
+      <grid columns="3">
+        <c class="animated fadeInUp">
+          <div class="card card--team">
+            <img class="js-lazy-img" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+              alt="Design is a super power" />
+            <h4>Paul Evans</h4>
+            <p>Group CEO</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6" stroke="#222"></polyline>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </c>
+        <c class="animated fadeInUp">
+          <div class="card card--team">
+            <img class="js-lazy-img" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+              alt="Design is a super power" />
+            <h4>Rob Hough</h4>
+            <p>Innovation Lead</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6" stroke="#222"></polyline>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </c>
+        <c class="animated fadeInUp">
+          <div class=" card card--team">
+            <img class="js-lazy-img" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+              alt="Design is a super power" />
+            <h4>Declan Bodaly</h4>
+            <p>Design Lead</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                    </path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                    </path>
+                    <polyline points="22,6 12,13 2,6" stroke="#222"></polyline>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block" id="join">
+    <div class="l-inner">
+      <h2>Join the team</h2>
+      <p>We're always looking for like-minded people to join us. Click the link below to email us why you think you'd be
+        a great fit.</p>
+      <a href="mailto:hello@strikedesignlabs.com?subject=let me work here">Email us</a>
+    </div>
+  </section>
+</main>
+{{ end }}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How We Help on UK Digital Product Design Studio – Strike by Mindera</title>
+    <link>http://example.org/how-we-help/</link>
+    <description>Recent content in How We Help on UK Digital Product Design Studio – Strike by Mindera</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/how-we-help/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Product Design Sprint</title>
+      <link>http://example.org/how-we-help/product-design-sprint/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/product-design-sprint/</guid>
+      <description>What you get   Product Vision
+  Product Prototype
+  MVP Requirements
+  User Feedback
+  Team Alignment
+   Design is transforming how organizations work. According to a McKinsey report, businesses that utilise design well see almost double in revenue share and return to shareholders. That is the engine behind massive growth in design-led companies today. But design is vague and hard to get to grips with.</description>
+    </item>
+    
+    <item>
+      <title>Problem Framing &amp; Discovery</title>
+      <link>http://example.org/how-we-help/problem-framing/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/problem-framing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UX &amp; Product Review</title>
+      <link>http://example.org/how-we-help/ux-product-review/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/ux-product-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Growth Accelerator</title>
+      <link>http://example.org/how-we-help/growth-accelerator/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/growth-accelerator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Brand Sprint</title>
+      <link>http://example.org/how-we-help/digital-branding/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/digital-branding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accessibility Review</title>
+      <link>http://example.org/how-we-help/accessibility-review/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/how-we-help/accessibility-review/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

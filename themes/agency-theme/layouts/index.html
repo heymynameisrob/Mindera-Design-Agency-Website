@@ -1,0 +1,129 @@
+{{ define "main" }}
+<main>
+	<div class="backer-img"
+		style="background-image:url('https://www.etchsprints.com/assets/img/hd/IMG_4396.jpg');background-size:cover;"></div>
+	<header role="banner">
+		<div class="animated fadeIn">
+			<h1>Make your business go further, faster</h1>
+			<p>Strike help companies build better products, get closer to their customers and figure out
+				where they’re going next.</p>
+		</div>
+		<a href="https://calendly.com/strike-mindera/30min" target="_blank" rel="noopener"><button
+				class="button button-primary button-lg">Book a free call</button></a>
+	</header>
+	<section class="l-block" id="pitch">
+		<div class="l-inner">
+			<grid columns="2">
+				<c>
+					<article>
+						<h2 class="animated fadeIn">Design is your new secret weapon</h2>
+						<div class="animated fadeIn">
+							<p>According to an inVision report, good design within your organisation can
+								increase revenue share,
+								product quality, time to market and customer satisfaction.</p>
+							<p>Design is transforming todays organizations. Using design thinking and strategic
+								methodologies, we can
+								help you create digital experiences that your customers will love.</p>
+						</div>
+						<a class="animated fadeIn" href="/how-we-help">Read more about how</a>
+					</article>
+				</c>
+				<c>
+					<aside>
+						<img class="js-lazy-img rounded" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+							alt="Design is a super power" />
+					</aside>
+				</c>
+			</grid>
+		</div>
+	</section>
+	<section class="l-block" id="testimonial">
+		<div class="l-inner">
+			<blockquote class="animated fadeIn lg">
+				<h4>Whenever a CEO needs outside help with a sprint, I tell them talk to Xander. I trust his work. His skill set
+					is unique—not only is he a fantastic designer and facilitator, but he also has experience as a startup
+					founder,
+					so he knows how to get at what really matters for a business.</h4>
+				<p><strong>A Client</strong></p>
+			</blockquote>
+		</div>
+	</section>
+	<section class="l-block" id="work">
+		<div class="l-inner">
+			<header>
+				<h5>Jam Pan</h5>
+				<h2>We help design an online recruitment platform to find the best talent</h2>
+				<ul class="tags">
+					<li>Strategy</li>
+					<li>Product Management</li>
+					<li>UX/UI</li>
+					<li>Research</li>
+					<li>Illustration</li>
+					<li>Visual Design</li>
+				</ul>
+			</header>
+			<img src="/images/Mockups@2x.png" alt="Jam Pan" />
+			<a href="#" class="button button-outline">Read fully case study</a>
+		</div>
+	</section>
+	<section class="l-block" id="services">
+		<div class="l-inner">
+			<h5>What we do</h5>
+			<grid columns="3">
+				<c class="animated fadeIn">
+					<article>
+						{{partial "svg/service-product" .}}
+						<h4>Digital Product Design</h4>
+						<p>We work collaboratively and iteratively to create branded experiences that ingrain
+							excellence and customer-focused solutions into your products and services</p>
+					</article>
+				</c>
+				<c class="animated fadeIn">
+					<article>
+						{{partial "svg/service-innovation" .}}
+						<h4>Innovation Training</h4>
+						<p>Learn the tricks of the trade. From Design Thinking to running Agile Sprints, our training will give you
+							practical, applicable takeaways</p>
+					</article>
+				</c>
+				<c class="animated fadeIn">
+					<article>
+						{{partial "svg/service-consultancy" .}}
+						<h4>Design Consultancy</h4>
+						<p>We help your company design from the inside. We will help your hire and train designers, make better
+							decisions and transform your business.</p>
+					</article>
+				</c>
+			</grid>
+			<div class="card animated fadeIn">
+				<div class="card-inner">
+					<article>
+						<h2>Design Booster Packs</h2>
+						<p>We offer a number of fully-costed booster packages to help you benchmark, innovate and add value to your
+							company.</p>
+						<div class="cta-links">
+							<a href="/how-we-help">
+								<svg width="48px" height="48px" viewBox="0 0 48 48" fill="none" stroke="#222" stroke-linecap="round"
+									stroke-linejoin="round">
+									<circle id="Oval" fill="currentColor" cx="24" cy="24" r="24" stroke-width="0"></circle>
+									<polygon stroke-width="3"
+										points="25.5555556 8 10 26.6666667 24 26.6666667 22.4444444 39.1111111 38 20.4444444 24 20.4444444">
+									</polygon>
+									<span>See booster packs</span>
+							</a>
+						</div>
+					</article>
+					<aside>
+						<img src="/images/Card-Decor.png" srcset="/images/Card-Decor@2x.png 900w" alt="Design Booster Packs" />
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="l-block" id="clients">
+		<div class="l-inner">
+			<h5>We’ve helped some of best companies design better</h5>
+			<img src="/images/Logos@2x.png" alt="Logos" />
+		</div>
+	</section>
+</main> {{ end }}

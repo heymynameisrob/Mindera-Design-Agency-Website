@@ -1,0 +1,71 @@
+:root {
+
+  --colour-primary:#FFD900;
+  --colour-primary__dark:#FFA900;
+  --colour-primary__light:#FFDF00;
+  --colour-accent:#304FFE;
+  --colour-accent__dark:#304AAE;
+  --colour-grey__lightest:#f5f5f5;
+  --colour-grey__light:#eee;
+  --colour-grey:#d8d8d8;
+  --colour-grey__dark:#888;
+  --colour-grey__darkest:#444;
+  --colour-black:#222;
+  --color-bg:#000;
+  
+
+  --type-stack__headline:'Mabry', -system-ui, sans-serif;
+  --type-stack__body:'Inter', -system-ui, sans-serif;
+  --type-colour__primary:rgba(255,255,255,1);
+  --type-colour__secondary:rgba(255,255,255,0.8);
+  --type-colour__black:var(--type-colour__primary);
+  --type-colour__grey:var(--type-colour__secondary);
+  
+  --type-size__h1:2.5rem;
+  --type-size__h2:2rem;
+  --type-size__h3:1.75rem;
+  --type-size__h4:1.25rem;
+  --type-size__h5:0.75rem;
+  --type-size__body-1:1rem;
+  --type-size__body-2:0.75rem;
+  --type-size__small:0.75rem;
+  
+  --type-baseline:calc(1rem * 1.25);  
+  --type-lg__headline:1.2;
+  --type-lh__body:1.6;
+  
+  --type-spacing__headline:0.5em;
+  --type-spacing__body:1em;
+
+  --spacing-xxs:0.5rem;
+  --spacing-xs:1rem;
+  --spacing-sm:1.5rem;
+  --spacing-md:2rem;
+  --spacing-lg:4rem;
+  --spacing-xl:8rem;
+  --spacing-xxl:12rem;
+  --spacing-xxxl:16rem;
+
+  --border-radius:0.25rem;
+  --keyline:1px solid var(--colour-grey);
+  --shadow-sm:0px 1px 4px rgba(0,0,0,0.1);
+  --shadow-md:0px 2px 1rem rgba(0,0,0,0.16);
+  --shadow-lg:0px 0.5rem 2rem rgba(0,0,0,0.16);
+
+  
+
+}
+
+@media(min-width:56rem) {
+  :root {
+    --type-size__h1:3.5rem;
+    --type-size__h2:2.5rem;
+    --type-size__h3:2rem;
+    --type-size__h4:1.5rem;
+    --type-size__h5:0.85rem;
+    --type-size__body-1:1.125rem;
+    --type-size__body-2:1rem;
+    --type-size__small:0.75rem;
+  }
+  
+}

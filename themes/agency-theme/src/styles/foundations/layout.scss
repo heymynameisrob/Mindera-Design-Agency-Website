@@ -1,0 +1,64 @@
+.l-inner {
+  max-width:75rem;
+  margin:0 auto;
+  padding-left:var(--spacing-sm);
+  padding-right:var(--spacing-sm);
+}
+.l-block {
+  padding: 0 0 var(--spacing-lg) 0; 
+
+  @media(min-width:56rem) {
+    padding: 0 0 var(--spacing-xl) 0; 
+  }
+}
+.l-block__pad-in .l-inner {
+  padding-top:var(--spacing-lg);  
+
+  @media(min-width:56rem) {
+    padding-top:var(--spacing-xl);
+  }
+}
+
+grid {
+  display:block;
+}
+@media(min-width:56rem) {
+  grid {
+    display: grid;
+    --grid-tc: repeat(4, 1fr);
+    grid-template-columns: var(--grid-tc);
+    grid-column-gap: var(--spacing-sm);
+    grid-row-gap: var(--spacing-sm);
+    --grid-cs: 1; /* column start */
+    --grid-ce: -1 /* column end */
+  }
+}
+
+grid > c { 
+  display: block; 
+  appearance: none; 
+  -webkit-appearance: none; 
+  margin-bottom:var(--spacing-sm);
+}
+grid > c:last-child {
+  margin-bottom:0;
+}
+@media(min-width:56rem) {
+  grid > c {
+    margin-bottom:0
+  }
+}
+
+
+grid[columns="1"] { --grid-tc: repeat(1, 1fr) }
+grid[columns="2"] { --grid-tc: repeat(2, 1fr) }
+grid[columns="3"] { --grid-tc: repeat(3, 1fr) }
+grid[columns="4"] { --grid-tc: repeat(4, 1fr) }
+grid[columns="5"] { --grid-tc: repeat(5, 1fr) }
+grid[columns="6"] { --grid-tc: repeat(6, 1fr) }
+grid[columns="7"] { --grid-tc: repeat(7, 1fr) }
+grid[columns="8"] { --grid-tc: repeat(8, 1fr) }
+grid[columns="9"] { --grid-tc: repeat(9, 1fr) }
+grid[columns="10"] { --grid-tc: repeat(10, 1fr) }
+grid[columns="11"] { --grid-tc: repeat(11, 1fr) }
+grid[columns="12"] { --grid-tc: repeat(12, 1fr) }

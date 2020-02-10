@@ -1,0 +1,110 @@
+{{ define "main" }}
+<main>
+  {{ .Scratch.Set "title" "How We Help" }}
+  {{ .Scratch.Set "desc" "We have unlocked value for client of all shapes and sizes. Our product & design practice works through a lens of business growth and design thinking to help your company drive breakout success." }}
+  {{ partial "page-header" .}}
+  <section class="l-block" id="packages">
+    <div class="l-inner">
+      <header class="section-header">
+        <h2>⚡️</h2>
+        <h2>Ready. Set. Strike.</h2>
+        <p>Using design and strategy, we have learned how we can best assist enterprises and startups alike. From our
+          fixed booster packages to tailored services – we’ve got you covered.</p>
+      </header>
+      <grid columns="2" class="grid__packages">
+        {{ range .Paginator.Pages }}
+        <c>
+          <article class="card card--package">
+            <header>
+              <h3>{{.Title}}</h3>
+              {{ partial .Params.svg }}
+            </header>
+            <p>{{.Description}}</p>
+            <p><strong>Value:</strong>{{.Params.Value}}</p>
+            <a href="{{.Permalink}}">Read more</a>
+          </article>
+        </c>
+        {{ end }}
+      </grid>
+      <grid columns="3" class="grid__core-services">
+        <c class="animated fadeIn">
+          <article>
+            {{partial "svg/service-product" .}}
+            <h4>Digital Product Design</h4>
+            <p>Rapid prototyping, UX/UI design, User research, Usability testing, Design systems, Icon Design, Visual
+              Design</p>
+          </article>
+        </c>
+        <c class="animated fadeIn">
+          <article>
+            {{partial "svg/service-innovation" .}}
+            <h4>Innovation training</h4>
+            <p>Workshops, Design Thinking Training, Product Strategy, Growth training, Design Sprints, Creative Thinking
+            </p>
+          </article>
+        </c>
+        <c class="animated fadeIn">
+          <article>
+            {{partial "svg/service-consultancy" .}}
+            <h4>Design consultancy</h4>
+            <p>Design strategy, Hiring, Consultancy on UX team workflow, Developing your design system & design culture
+            </p>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block l-block__pad-in" id="how-we-work">
+    <div class="l-inner">
+      <header class="section-header">
+        <h2>How we work</h2>
+        <p>Every great product starts with a simple idea. We believe that good design strategy can not only execute that
+          idea, but also
+          shape it and help it to grow.</p>
+      </header>
+      <grid columns="4">
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__red">
+            <div class="card--work__inner">
+              <h4>No busy work</h4>
+              <p>Traditional agencies don’t understand the pressures modern companies are under to innovate and launch
+                new
+                products. </br>We do.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__blue">
+            <div class="card--work__inner">
+              <h4>Remote friendly</h4>
+              <p>We work with clients all around globe, crossing cultural boundaries and barriers. We are adept at
+                making
+                all our services remote friendly.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__purple">
+            <div class="card--work__inner">
+              <h4>Self organised</h4>
+              <p>We are a collaborative enterprise and we’re the same way with our clients. We work with you, your team
+                and anyone else to achieve the best.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__green">
+            <div class="card--work__inner">
+              <h4>Lightning fast</h4>
+              <p>Why should a project take 3 months to get going? We work in focused, transparent sprints of work to
+                build better
+                products, faster.</p>
+            </div>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+
+</main>
+{{ end }}

@@ -1,0 +1,17 @@
+.tags {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:wrap;
+}
+.tags li {
+  display:block;
+  list-style: none;
+  padding:0.25rem 0.5rem;
+  border:2px solid var(--colour-grey__darkest);
+  color:var(--colour-grey);
+  font-size:0.8em;
+  text-align:center;
+  margin:0 0.5rem;
+  border-radius:var(--border-radius);
+}

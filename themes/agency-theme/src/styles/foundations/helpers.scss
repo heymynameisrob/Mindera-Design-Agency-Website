@@ -1,0 +1,195 @@
+// Icon Animation - Home
+#icon-product .icon-product__bottom .icon-product__bottom__arrow,
+#icon-product .icon-product__top .icon-product__top__rect {
+  animation:iconSlideLeft 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  animation-fill-mode: both;  
+}
+#icon-product .icon-product__bottom .icon-product__bottom__rect,
+#icon-product .icon-product__top .icon-product__top__circle {
+  animation:iconSlideRight 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  animation-fill-mode: both;   
+}
+
+#icon-product .icon-product__top .icon-product__top__circle,
+#icon-product .icon-product__top .icon-product__top__rect {
+  animation-delay:4s;
+}
+
+#icon-training .icon-training__large {
+  animation: iconScaleLarge 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: 25% 25%;
+  animation-fill-mode: both;
+}
+#icon-training .icon-training__small,
+#icon-consultancy .icon-consultancy__bubbles {
+  animation: iconFadeSmall 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;  
+  animation-fill-mode: both;    
+}
+
+#icon-consultancy .icon-consultancy__circle {
+  animation:iconRotate 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite; 
+  transform-origin: center;
+  animation-fill-mode: both;    
+}
+
+// Icon Animation - How We Help
+#package-pds .pds-front-arrow {
+  animation: iconScaleLargeNoFade 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: center;
+  animation-fill-mode: both;     
+  animation-delay: .1s;
+}
+#package-pds .pds-back-arrow {
+  animation:iconSlideRight 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;   
+  animation-fill-mode: both;     
+}
+#package-prob .prob-frame {
+  animation: iconScaleLargeInward 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: center;
+  animation-fill-mode: both; 
+}
+
+
+// LazyLoad
+.js-lazy-img {
+  opacity:0;  
+}
+.js-lazy-img__loaded {  
+  animation: imageFadeIn .25s ease-in;
+  animation-delay: .25s;
+  animation-fill-mode: both;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.animated.is-animated {
+  animation-play-state: running;
+}
+.animated + .animated {
+  animation-delay: 0.25s;
+}
+.animated + .animated + .animated {
+  animation-delay: 0.5s;
+}
+.animated + .animated + .animated + .animated {
+  animation-delay: 0.75s;
+}
+.animated + .animated + .animated + .animated + .animated {
+  animation-delay: 1s;
+}
+
+// Animations
+@keyframes iconSlideLeft {
+  10%, 50% {
+    transform:translateX(-20px)
+  }
+  60%, 100% {
+    transform:translateX(0)
+  }
+}
+@keyframes iconSlideRight {
+  10%, 50% {
+    transform:translateX(20px)
+  }
+  60%, 100% {
+    transform:translateX(0)
+  }
+}
+
+@keyframes iconScaleLarge {
+  10%, 50% {
+    transform:scale(1.25);
+    opacity:0.5;
+  }
+  60%, 100% {
+    transform:scale(1);
+    opacity:1;
+  }
+}
+@keyframes iconScaleLargeNoFade {
+  10%, 50% {
+    transform:scale(1.25);    
+  }
+  60%, 100% {
+    transform:scale(1);    
+  }
+}
+@keyframes iconScaleLargeInward {
+  10%, 50% {
+    transform:scale(1.25);    
+  }
+  60%, 100% {
+    transform:scale(1);    
+  }
+}
+@keyframes iconFadeSmall {
+  10%, 50% {
+    opacity:1;
+  }
+  60%, 100% {
+    opacity:0.5;
+  }
+}
+@keyframes iconRotate {
+  10%, 50% {
+    transform:rotate(180deg);
+    opacity:0.5;
+  }
+  60%, 100% {
+    transform:rotate(0deg);
+    opacity:1;
+  }
+}
+
+
+@keyframes imageFadeIn {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;  
+  will-change:opacity;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;  
+  will-change:transform, opacity;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;    
+  }
+
+  to {
+    opacity: 1;    
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform:translate3d(0,2rem,0);
+  }
+
+  to {
+    opacity: 1;
+    transform:translate3d(0,0,0);
+  }
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .animated {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    animation-iteration-count: 1 !important; 
+    animation-play-state: running;
+  }
+}

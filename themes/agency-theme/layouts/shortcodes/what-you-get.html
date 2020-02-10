@@ -1,0 +1,23 @@
+<div class="post__what-you-get">
+  <h4>What you get</h4>
+  <ul>
+    {{if index .Params 0}}<li>
+      <p>{{ index .Params 0 }}</p>
+    </li>{{end}}
+    {{if index .Params 1}}<li>
+      <p>{{ index .Params 1 }}</p>
+    </li>{{end}}
+    {{if index .Params 2}}<li>
+      <p>{{ index .Params 2 }}</p>
+    </li>{{end}}
+    {{if index .Params 3}}<li>
+      <p>{{ index .Params 3 }}</p>
+    </li>{{end}}
+    {{if index .Params 4}}<li>
+      <p>{{ index .Params 4 }}</p>
+    </li>{{end}}
+    {{if index .Params 5}}<li>
+      <p>{{ index .Params 5 }}</p>
+    </li>{{end}}
+  </ul>
+</div>

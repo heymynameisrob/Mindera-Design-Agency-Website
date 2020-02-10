@@ -1,0 +1,16 @@
+blockquote.lg {
+  display:block;
+  text-align:center;
+  max-width:65ch;
+  margin:0 auto;
+}
+blockquote.lg h4 {
+  font-weight:normal;
+  font-family:var(--type-stack__body);
+  line-height: 1.8;
+  letter-spacing: -0.024em;
+}
+blockquote.lg p {
+  text-align: center;
+  font-family:var(--type-stack__headline);
+}

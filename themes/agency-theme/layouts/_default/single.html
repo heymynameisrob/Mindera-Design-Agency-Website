@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main>
+	{{ .Scratch.Set "title" .Title }}
+	{{ .Scratch.Set "desc" .Description }}
+	{{ partial "page-header" .}}
+	{{ .Content }}
+</main>
+{{ end }}

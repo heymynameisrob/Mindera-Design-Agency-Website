@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icon-consultancy" width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <circle fill="#222222" fill-rule="nonzero" cx="36" cy="36" r="36"></circle>
+    <g class="icon-consultancy__circle" transform="translate(20.000000, 20.000000)" fill="#304FFE" opacity="0.6">
+      <path d="M4,14 C6.2091,14 8,15.7909 8,18 L8,19 C8,21.7614 10.2386,24 13,24 L14,24 C16.2091,24 18,25.7909 18,28 C18,30.2091 16.2091,32 14,32 L13,32 C5.8203,32 0,26.1797 0,19 L0,18 C0,15.7909 1.7909,14 4,14 Z" id="Path"></path>
+      <path d="M28,18 C25.7909,18 24,16.2091 24,14 L24,13 C24,10.2386 21.7614,8 19,8 L18,8 C15.7909,8 14,6.2091 14,4 C14,1.7909 15.7909,0 18,0 L19,0 C26.1797,0 32,5.8203 32,13 L32,14 C32,16.2091 30.2091,18 28,18 Z" id="Path"></path>
+    </g>
+    <g class="icon-consultancy__bubbles" transform="translate(16.000000, 16.000000)" fill="#304FFE" fill-rule="nonzero">
+      <path d="M32,24 C36.418278,24 40,27.581722 40,32 C40,36.418278 36.418278,40 32,40 L24,40 L24,40 L24,32 C24,27.581722 27.581722,24 32,24 Z" id="Rectangle" transform="translate(32.000000, 32.000000) scale(-1, 1) translate(-32.000000, -32.000000) "></path>
+      <path d="M8,0 C12.418278,-8.11624501e-16 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 L0,16 L0,16 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle"></path>
+    </g>
+  </g>
+</svg>

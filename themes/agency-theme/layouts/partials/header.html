@@ -1,0 +1,14 @@
+<nav role="navigation">
+	<div class="nav-inner">
+		<a href="/" class="logo"><img src="/images/Logo.svg" alt="Strike Design Labs" /></a>
+		<a href="#" id="toggle-nav-links">Menu</a>
+	</div>
+	<ul class="nav-links" id="nav-links">
+		{{ $current := . }}
+		{{ range .Site.Menus.main }}
+		{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+		<li><a href="{{ .URL }}" class='{{ if $active }}is-active{{ end }}'>{{ .Name }}</a></li>
+		{{ end }}
+		<li><a href="#contact">Get started</a></li>
+	</ul>
+</nav>

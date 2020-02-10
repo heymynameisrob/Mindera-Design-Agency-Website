@@ -1,0 +1,22 @@
+#packages .grid__packages,
+#packages .grid__core-services {
+  margin-top:var(--spacing-lg);
+}
+#packages .grid__core-services article {
+  text-align:center;
+}
+#packages .grid__core-services article svg {
+  height:auto;
+  width:var(--spacing-lg);
+  margin-bottom:var(--spacing-sm);
+}
+
+#how-we-work {
+  background-color:var(--colour-black);
+  border-top:1px solid var(--colour-grey__darkest);
+  border-bottom:1px solid var(--colour-grey__darkest);
+  text-align:center;
+}
+#how-we-work grid {
+  margin-top:var(--spacing-lg);
+}

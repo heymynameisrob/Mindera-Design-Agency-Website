@@ -1,0 +1,106 @@
+// Blog
+.post-grid,
+.post-content {
+  display: grid;
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
+}
+.post-content {
+  padding-bottom:var(--spacing-lg);
+}
+.post {
+  grid-column: 2;
+  padding:var(--spacing-lg) 0;
+  border-bottom:4px solid var(--colour-grey__darkest); 
+
+  small {
+    display: block;
+    color:var(--colour-grey);
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin-bottom:var(--spacing-xs);
+  }
+}
+
+// Post Page
+.post-content > * {
+  grid-column: 2;
+}
+.post-content .full-width {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+  margin-top:var(--spacing-lg);
+
+  img {
+    border-radius:var(--border-radius);
+  }
+
+   & + p,
+   & + h3 {
+    margin-top:var(--spacing-lg);
+   }
+}
+.post-content p + h3 {
+  margin-top:var(--spacing-lg);
+}
+.breadcrumb {
+  font-size:1rem;
+
+  a {
+    color:#fff;
+    font-size:1em;
+    font-weight:bold;
+    text-decoration: none;
+  }
+}
+
+.post__what-you-get ul {
+  display:grid;
+  --grid-col:2;
+  grid-template-columns: repeat(var(--grid-col), 1fr);
+  grid-gap:var(--spacing-xxs);
+  margin-top:var(--spacing-sm);
+  margin-bottom:var(--spacing-lg);
+
+  @media(min-width:56rem) {
+    --grid-col:3;
+  }
+  li {
+    display:flex;
+    justify-content: flex-start;
+    line-height:1.5;  
+    color:var(--colour-primary);  
+  }
+  li p {
+    color:#fff;
+  }
+  li::before {
+    content:'•';
+    display:inline;
+    font-size:1.25em;
+    padding-right:var(--spacing-xxs);
+    color:currentColor;
+  }
+
+  li:first-of-type { color: #2F46FD; }
+  li:nth-of-type(2) { color: #F9315D; }
+  li:nth-of-type(3) { color: #B066FF; }
+  li:nth-of-type(4) { color: #18C157; }
+  li:nth-of-type(5) { color: #FF4F00; }
+  li:nth-of-type(6) { color: var(--colour-primary); }
+}
+
+.post-content .cta {
+  color:#fff;
+  font-weight:bold;
+}
+.post-content hr {
+  border:4px solid var(--colour-grey__darkest);
+  width:100%;
+  margin:var(--spacing-md) 0;
+}
+.post-content p strong {
+  color:#fff;
+}
