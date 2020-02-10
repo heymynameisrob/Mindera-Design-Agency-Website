@@ -31,8 +31,12 @@
 #services grid {
   margin-top:var(--spacing-md);
 }
+#services grid article {
+  text-align:center;
+}
 #services grid article svg {
   display:block;
+  margin:0 auto;
   margin-bottom:var(--spacing-sm);
   width:var(--spacing-lg);
   height:auto;
@@ -41,8 +45,12 @@
   position: relative;
   border-radius:calc(var(--border-radius) * 2);
   padding:var(--spacing-md);
-  background-color:var(--colour-black);  
+  background-color:var(--colour-accent);  
   margin-top:var(--spacing-sm);
+
+  a {
+    color:#fff;
+  }
 }
 @media(min-width:56rem) {
   #services .card {

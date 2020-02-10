@@ -4,10 +4,15 @@
     <div class="post-content">
       <header class="post-header">
         <p class="breadcrumb"><a href="/how-we-help">How we help</a> / {{.Title}}</p>
-        <h2>{{.Title}} <span>#</span></h2>
+        <h2>{{.Title}}</h2>
         <p>{{.Description}}</p>
       </header>
       {{ .Content }}
+      <hr>
+      <p class="cta">Think your company could benefit from a {{.Title}} workshop?
+        <span>Book a free call with our innovation
+          team below and get your business moving further, faster!</span></p>
+      {{if .Params.DeckURL}}<a href="{{.Params.DeckURL}}">Download our PDF deck</a>{{end}}
     </div>
   </div>
 </main>

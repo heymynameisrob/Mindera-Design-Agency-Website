@@ -14,10 +14,10 @@
   --color-bg:#000;
   
 
-  --type-stack__headline:'Mabry', -system-ui, sans-serif;
-  --type-stack__body:'Inter', -system-ui, sans-serif;
+  --type-stack__headline:'Mabry', -system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --type-stack__body:'Inter', -system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --type-colour__primary:rgba(255,255,255,1);
-  --type-colour__secondary:rgba(255,255,255,0.8);
+  --type-colour__secondary:rgba(255,255,255,0.75);
   --type-colour__black:var(--type-colour__primary);
   --type-colour__grey:var(--type-colour__secondary);
   

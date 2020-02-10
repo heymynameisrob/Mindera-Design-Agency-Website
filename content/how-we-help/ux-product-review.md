@@ -4,7 +4,7 @@ description: "Expert review of your digital product & service. Learn how to opti
 value: "Visibility on quality of UX & how to reach KPIs"
 svg: "svg/package-ux-review"
 date: 2020-01-06
-draft: false
+draft: true
 ---
 
 

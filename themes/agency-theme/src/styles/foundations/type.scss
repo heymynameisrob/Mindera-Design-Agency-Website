@@ -53,13 +53,17 @@ h5,
 .t-h5 {
   font-size:var(--type-size__h5);
   font-family:var(--type-stack__headline);
-  line-height:var(--type-size__h5);
+  line-height:calc(var(--type-size__h5) * 2);
   letter-spacing:calc(var(--type-size__h5) / 2.5);
   text-transform:uppercase; 
   font-weight:700;
   color:var(--colour-grey__dark);
-  margin:0 0 var(--type-size__h5) 0;
+  margin:0 0 var(--type-size__h5) 0;  
   margin-left:calc(var(--type-size__h5) / -22);   
+
+  @media(min-width:56rem) {
+    line-height:var(--type-size__h5);
+  }  
 }
 
 p {

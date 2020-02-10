@@ -2,16 +2,54 @@
 	<div class="backer-pattern" style="background-image:url('/images/Pattern.svg');"></div>
 	<div class="l-inner">
 		<div class="contact__inner">
-			<img src="/images/Rob@2x.png" alt="Rob" />
-			<h3>Book a free call today</h3>
-			<p>Ready to get started? Book a free 30 minute call with
-				<strong>Rob</strong> our design expert, or <a href="mailto:hello@strikedesignlabs.com">email us</a> and
-				we'll get back to you.</p>
+			<h1>Ready to get started?</h1>
+			<p>Book in a <strong>free call</strong> with our innovation team or <a
+					href="mailto:hello@strikedesignlabs.com">email us</a> to get your business moving further, faster.</p>
 			<a href="https://calendly.com/strike-mindera/30min" target="_blank" rel="noopener"><button
-					class="button button-primary button-lg">Book call</button></a>
+					class="button button-primary button-lg">Book a FREE call</button></a>
 		</div>
 	</div>
 </section>
 <footer>
-	<p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+	<div class="l-inner">
+		<grid columns="4">
+			<c>
+				<aside>
+					<a href="/" class="logo"><img src="/images/Logo.svg" alt="Strike Design Labs" /></a>
+					<p>Strike Design Labs are part of the Mindera Group</p>
+				</aside>
+			</c>
+			<c>
+				<ul>
+					<li>Where to find us</li>
+					<li>
+						<address>
+							29 Rutland Street</br>
+							Leicester</br>
+							LE1 1RD</br>
+							United Kingdom
+						</address>
+					</li>
+				</ul>
+			</c>
+			<c>
+				<ul>
+					<li>Contact</li>
+					<li><a href="mailto:hello@strikedesignlabs.com">Email</a></li>
+					<li><a href="https://instagram.com/strikedesignlab">Instagram</a></li>
+					<li><a href="https://linkedin.com/strike-design-labs">LinkedIn</a></li>
+				</ul>
+			</c>
+			<c>
+				<ul>
+					<li>Sitemap</li>
+					{{ $current := . }}
+					{{ range .Site.Menus.main }}
+					{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+					<li><a href="{{ .URL }}" class='{{ if $active }}is-active{{ end }}'>{{ .Name }}</a></li>
+					{{ end }}
+				</ul>
+			</c>
+		</grid>
+	</div>
 </footer>

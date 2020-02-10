@@ -3,6 +3,7 @@ title: "Product Design Sprint"
 description: "Rapidly define a vision, prototype & test it with real customers – all in a week. Compress months of work into a week."
 svg: 'svg/package-pds'
 value: "Highlight big challenges, prove the concept & get it validated by real customers."
+DeckURL: '#'
 date: 2020-01-08
 draft: false
 ---
@@ -85,9 +86,4 @@ Once you have your customer insights, you now have a workable set of next step. 
 ### Get prepared
 Before you decide to run a sprint you need to define your challenge and pick your team. It's important to make sure a range of experts are invested in the process. Despite the name, this isn't just for "designers". You'll need senior stakeholders to drive decisions, people who are close to your customers, engineers and domain experts. We find that between 5-7 people (excluding a designer and facilitator) is a perfect number.
 
-<hr>
-
-<p class="cta">Think your company could benefit from a Product Design Sprint? Book a free call with our innovation lead, <span>Rob</span>, below or download our PDF deck for more information.</p>
-
-<a href="#">Download our PDF deck</a>
 

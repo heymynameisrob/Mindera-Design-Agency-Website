@@ -29,16 +29,18 @@
   justify-content: space-between;
   align-items: center;
   text-align: left;
+  margin-bottom:1rem;
 
   h3 {
     margin:0;
   }  
   svg {
     display:none;
-    max-width: 100%;
+    max-width: 4rem;
+    height:auto;
 
     @media(min-width:56rem) {
-      display:block;      
+      display:block;            
     }
   }
 }
@@ -60,12 +62,13 @@
   text-align:left;
   padding:var(--spacing-sm);
   padding-top:var(--spacing-lg); 
-  color:#fff; 
+  color:var(--type-color__primary); 
   overflow:hidden;
   height:100%;
 
   p {
     font-size:1em;
+    color:var(--type-color__primary); 
   }
   ul {
     padding-left:1rem;
