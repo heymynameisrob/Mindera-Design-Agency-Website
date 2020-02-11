@@ -1,10 +1,10 @@
 .button,
 button {
   display:inline-block;
-  padding:var(--spacing-xs) var(--spacing-md);
+  padding:var(--spacing-xs) var(--spacing-sm);
   font-size:var(--type-size__body-1);
-  font-family:var(--type-stack__headline);
-  line-height:1.2;
+  font-family:var(--type-stack__body);
+  line-height:1;
   font-weight:bold;
   text-decoration: none;  
   color:var(--type-colour__black);
@@ -30,6 +30,7 @@ button:focus {
 
 .button-lg {
   font-size:calc(var(--type-size__h1) / 2);  
+  padding:var(--spacing-sm) var(--spacing-md);
 }
 .button-full {
   display:block;

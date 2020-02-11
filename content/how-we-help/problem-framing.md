@@ -1,27 +1,36 @@
 ---
 title: "Problem Framing"
-description: "Frame the problem. Gain insight and intelligence into your current or prospective customers and figure out where to go next"
+description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next"
 value: "Identify opportunity. Find out where your customers are and what they want."
 svg: "svg/package-prob.html"
 date: 2020-01-07
 draft: false
 ---
-{{< what-you-get "Product Vision" "Business Context" "Customer Research" "Problem Statement" >}}
+{{< what-you-get "Product Vision" "Business Context" "Customer Persona" "Problem Statement" >}}
 
-When building products, the first question we should ask is: What problem are we working on? From our experience on many occasions, the answers revolve around the solutions rather than the actual problem.
+When trying to build products in your business, it can be a challenge not to get carried away and start moving. But before you commit money or time to anything, the first question we should ask is: **What are we trying to achieve? What problem are we solving?**
 
-Through problem framing we can spend a day helping our clients (and ourselves, too) understand and align around a big, important problem worth solving before jumping into the other phases of our product development process.
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/191566926" class="full-width" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+This can be vague and hard to pin down. But without it you lose your strategy and vision of the products success. Before you know it, everyone is asking themselves: Why are we doing this again?
+
+Using Design Thinking, we can **frame our problem** in concrete way. This allows us to understand who our audience is, what success looks like and where to next – all without firing up the production line.
 
 ### Problems vs. Solutions
-Generally solutions are easier to talk about. They’re linear. But when starting a new project with the teams and companies that approach us we want to be on the same page – and solutions also generally don’t invite new thinking or curiosity.
+As human beings, we're natural problem solvers. We want to try and find solutions straight away. But jumping to the first or even the most obvious solutions straight away is ineffective – and solutions also generally don’t invite new thinking or curiosity.
 
-Hence before kick-starting a project, we suggest focussing on understanding and prioritizing the problem first. This sets us up for building the right solution, to the right problem.
+We can get to attached to our solution, when we should be attached to the problem.
 
-<div class="full-width"><img class="js-lazy-img" data-src="https://images.prismic.io/fintory/08b63573b0c81c9e6b25338b02054ee01d87acc0_problemframing2.png" alt="Impact & Value" /></div>
+<img class="js-lazy-img" data-src="/images/Venn.png" srcset="/images/Venn@2x.png 800w" alt="Three lenses of Innovation" />
 
-### Impact and Value
-Product discovery means looking for a sweet spot. Both your business and your users need to buy into the product – the business mainly benefits from the impact the product has and all needs of your business should be considered. Does the problem we’re trying to solve map to the strategic goals of our company? Next, we also need to consider the user: What problems does the user have? The space inbetween is where we should focus: User Problems that you are excited about and capable of solving.
+### Three lenses of innovation
+When we frame our problem, we're looking for the sweet spot when it comes to potential solutions. Do they all converge around our three requirements. Desirability – does our audience have a need for this?. Feasibility – How can we build this? Is it technically possible?. Viability – can we build sustained revenue from this?.
+
+Once an idea converges around these three requirements, we can focus on that as a potential solution.
 
 ### Problem Framing
-From our experiences while working with startups, mid-growth companies and enterprises we have collected different activities that can be done within a day or two, to understand more about the problem we should be solving. A discovery workshop is the ideal start for any major project – it helps getting to know your business, your customers and setting us up for the later stages of the product development process. The workshop will ideally be run on-site on a 1 to 2 day schedule that brings in Product Design experts from Fintory and your stakeholders and their team.
+A problem framing workshop can be achieved in a day or two. Our workshop will help you product leaders understand where their strategy lies. Getting the right framing will start us off on the right foot to find solutions. It will help us organise ourselves and at moments of ambiguity, help clarify our direction and where we should push our product.
+
+### Get prepared
+To run a problem framing workshop, we usually need 4-5 people who are leading the potential product. That could be PM's, CXO's or Founders. We like to make sure we don't come with any preconceptions or our own ideas, so we don't offer an pre-research or background. This workshop is designed to put some structure around your creative thinking.
 

@@ -1,9 +1,11 @@
 ---
-title: "First Post"
+title: "The agency is dead. Long live the agency."
 date: 2020-01-01
 category: "Post"
 draft: true
 ---
+
+Blog post on how and why we started Strike and what we want to achieve with it
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper euismod augue, et iaculis nisl feugiat ac. Ut dui dolor, consequat vel blandit a, suscipit non mi. Donec gravida egestas justo, ut viverra velit scelerisque ut. Fusce finibus tellus ac nunc venenatis, eget venenatis leo semper. Morbi efficitur vel lacus quis vehicula. Proin pellentesque nunc eget pulvinar molestie. Proin luctus fringilla ex ultrices molestie. Cras congue metus magna, at scelerisque lacus feugiat quis. Aliquam fringilla id dolor sodales semper. Vivamus condimentum tristique quam, id tincidunt sem imperdiet at.
 

@@ -7,11 +7,10 @@
 .tags li {
   display:block;
   list-style: none;
-  padding:0.25rem 0.5rem;
-  border:2px solid var(--colour-grey__darkest);
+  padding:0.5rem 0.75rem;
+  background-color:var(--colour-black);  
   color:var(--colour-grey);
-  font-size:0.8em;
   text-align:center;
-  margin:0 0.5rem;
-  border-radius:var(--border-radius);
+  margin:0 0.25rem;
+  border-radius:calc(var(--border-radius) * 10);
 }

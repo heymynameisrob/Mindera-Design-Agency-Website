@@ -12,5 +12,18 @@ blockquote.lg h4 {
 }
 blockquote.lg p {
   text-align: center;
+  font-size:var(--type-size__h4);
   font-family:var(--type-stack__headline);
+}
+blockquote .author {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:column nowrap;
+
+  img {    
+    max-width:4rem;
+    border-radius:50%;
+  }
+
 }

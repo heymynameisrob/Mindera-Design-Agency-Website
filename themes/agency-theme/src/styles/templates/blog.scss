@@ -27,15 +27,19 @@
   align-items: center;
   margin:var(--spacing-md) 0 0 0;
 }
-.author-img p {
+.author-img .author-text {
   padding-left:var(--spacing-xs);
-  color:var(--type-color__primary);
-  font-weight:bold;
-  margin:0;
+  
+  p:first-of-type {
+    color:var(--type-color__primary);
+    font-weight:bold;
+    margin:0;
+    line-height: 1.2;
+  }
 
-  span {
+  p:last-of-type {
     font-weight: normal;
-    color:var(--type-color__secondary);
+    margin:0;    
   }
 }
 .author-img img {

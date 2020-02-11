@@ -81,13 +81,16 @@ p.t-body-2 {
   --type-size:var(--type-size__body-2);
 }
 
-h1 + p {
+h1 ~ p,
+h1 ~ a {
   --type-size:calc(var(--type-size__h1) / 2.5);
 }
-h2 + p {
+h2 ~ p,
+h2 ~ a {
   --type-size:calc(var(--type-size__h2) / 2);
 }
-h3 + p {
+h3 ~ p,
+h3 ~ a {
   --type-size:calc(var(--type-size__h3) / 2);
 }
 

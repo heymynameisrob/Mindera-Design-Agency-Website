@@ -48,6 +48,46 @@
   transform-origin: center;
   animation-fill-mode: both; 
 }
+#package-review .package-star {
+  animation: iconFadeSmall 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;  
+  animation-fill-mode: both;    
+}
+#package-review .package-small-stars {
+  animation: iconFadeSmall 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;  
+  animation-fill-mode: both;    
+  animation-delay: 2.5s;
+}
+
+#package-growth path {
+  transform:scale(1);
+  animation: iconScaleVert 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;    
+  animation-fill-mode: both;  
+  transform-origin: center;
+}
+#package-growth path:nth-of-type(2) {
+  animation-delay:1s
+}
+#package-growth path:last-of-type {
+  animation-delay:2s
+}
+
+#package-brand g.icon-wrap {
+  animation: iconScaleLargeNoFade 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: center;
+  animation-fill-mode: both;
+}
+
+
+#package-research path {
+  animation: iconInOutFront 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: center;
+  animation-fill-mode: both; 
+}
+#package-research path:last-of-type {
+  animation: iconInOutBack 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  transform-origin: center;
+  animation-fill-mode: both; 
+}
 
 
 // LazyLoad
@@ -141,6 +181,30 @@
   60%, 100% {
     transform:rotate(0deg);
     opacity:1;
+  }
+}
+@keyframes iconInOutBack {
+  10%, 50% {
+    transform:translate3d(8px,8px,0) rotate(2deg);
+  }
+  60%, 100% {
+    transform:translate3d(0,0,0) rotate(0deg);
+  }
+}
+@keyframes iconInOutFront {
+  10%, 50% {
+    transform:translate3d(-8px,-8px,0) rotate(-2deg);
+  }
+  60%, 100% {
+    transform:translate3d(0,0,0) rotate(0deg);
+  }
+}
+@keyframes iconScaleVert {
+  10%, 50% {
+    transform:scaleY(0);
+  }
+  60%, 100% {
+    transform:scaleY(1);
   }
 }
 
