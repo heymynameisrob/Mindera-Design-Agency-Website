@@ -18,7 +18,7 @@ nav .nav-inner {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding:var(--spacing-sm) var(--spacing-xs);  
+  padding:var(--spacing-sm) var(--spacing-sm);  
 
   .logo img {
     max-width:124px;
@@ -56,17 +56,17 @@ nav .nav-links li {
   nav .nav-links {
     display:flex;
     justify-content: flex-end;
-    align-items: center;
-    text-align: right;    
-    padding:0;
-    margin-left:-1rem;
+    align-items: center;       
+    padding:0 var(--spacing-sm) 0 0;
+    margin-left:-1.5rem;
     background-color:transparent;
-    max-height:auto;
+    max-height:none;
     overflow:visible;
   }
   nav .nav-links li {
     display:block;
-    padding-left:var(--spacing-xs);
+    text-align: right; 
+    padding-left:var(--spacing-md);
   }
 }
 
@@ -75,7 +75,7 @@ nav .nav-links li:last-of-type a {
 }
 nav .nav-links li a {
   display:inline-block;
-  padding:var(--spacing-xs);  
+  padding:var(--spacing-sm) 0;  
   border-radius:var(--border-radius);
   background-color:transparent;
   color:var(--type-colour__secondary);

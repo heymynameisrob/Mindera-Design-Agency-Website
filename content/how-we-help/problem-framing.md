@@ -10,7 +10,7 @@ draft: false
 
 When trying to build products in your business, it can be a challenge not to get carried away and start moving. But before you commit money or time to anything, the first question we should ask is: **What are we trying to achieve? What problem are we solving?**
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/191566926" class="full-width" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe title="vimeo-player" class="lazyload" data-src="https://player.vimeo.com/video/191566926" class="full-width" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 This can be vague and hard to pin down. But without it you lose your strategy and vision of the products success. Before you know it, everyone is asking themselves: Why are we doing this again?
 
@@ -21,7 +21,7 @@ As human beings, we're natural problem solvers. We want to try and find solution
 
 We can get to attached to our solution, when we should be attached to the problem.
 
-<img class="js-lazy-img" data-src="/images/Venn.png" srcset="/images/Venn@2x.png 800w" alt="Three lenses of Innovation" />
+<img class="lazyload" data-src="/images/Venn.png" data-srcset="/images/Venn@2x.png 800w" alt="Three lenses of Innovation" />
 
 ### Three lenses of innovation
 When we frame our problem, we're looking for the sweet spot when it comes to potential solutions. Do they all converge around our three requirements. Desirability – does our audience have a need for this?. Feasibility – How can we build this? Is it technically possible?. Viability – can we build sustained revenue from this?.

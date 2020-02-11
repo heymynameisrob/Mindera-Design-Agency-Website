@@ -3,25 +3,19 @@ header[role="banner"] {
   justify-content: center;
   align-items:center;
   flex-flow:column nowrap;
-  padding:var(--spacing-lg) var(--spacing-sm) var(--spacing-xl) var(--spacing-sm);
+  padding:var(--spacing-xl) var(--spacing-sm) var(--spacing-xl) var(--spacing-sm);
   text-align:center;
-}
-@media(min-width:56rem) {
-  header[role="banner"] {
-    padding:var(--spacing-xl) var(--spacing-sm) var(--spacing-xxl) var(--spacing-sm);
-  }
 }
 header[role="banner"] h1 {
   max-width:15ch;
   margin-left:auto;
-  margin-right:auto;
-  margin-bottom:var(--spacing-md);
+  margin-right:auto;  
 }
 header[role="banner"] p {
   max-width:55ch;
   margin-left:auto;  
   margin-right:auto;
-  margin-bottom:var(--spacing-md);
+  margin-bottom:var(--spacing-h1);
 }
 header[role="banner"] .button {
   width:100%;  
@@ -31,8 +25,8 @@ header[role="banner"] .button {
   }
 }
 header.page-header {
-  position: relative;
-  padding-bottom:var(--spacing-xl);
+  position: relative;  
+  padding:var(--spacing-xl) var(--spacing-sm) var(--spacing-lg) var(--spacing-sm);
   
   .back-pattern {
     position: absolute;
@@ -48,7 +42,7 @@ header.page-header {
 
 header.post-header {
   display:block;  
-  padding:var(--spacing-xl) 0 var(--spacing-lg) 0;
+  padding:var(--spacing-lg) 0 var(--spacing-sm) 0;
 
   h2 span {
     color:var(--colour-grey__darkest);

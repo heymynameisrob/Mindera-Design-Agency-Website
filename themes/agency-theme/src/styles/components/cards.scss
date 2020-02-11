@@ -1,7 +1,6 @@
 .card {
   display:block;
-  background-color: #fff;
-  box-shadow:var(--shadow-lg);
+  background-color: #fff;  
   border-radius:calc(var(--border-radius) * 2);
   padding:var(--spacing-sm);
 }
@@ -11,25 +10,90 @@
   }
 }
 
+.card--booster {
+  position: relative;
+  border-radius:calc(var(--border-radius) * 2);
+  padding:var(--spacing-md);
+  background-color:var(--colour-accent);  
+  margin-top:var(--spacing-lg);
+  overflow:hidden;
+
+  &::after {
+    transform:translate3d(-60%, 0, 0);        
+  }
+
+  a {
+    color:#fff;
+  }
+}
+@media(min-width:56rem) {
+  .card--booster {
+    margin-top:var(--spacing-md);
+    padding:var(--spacing-md);
+  }
+}
+
+.card--booster .card-inner {
+  display:block;
+}
+@media(min-width:56rem) {
+.card--booster .card-inner {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+  }
+  .card--booster .card-inner article {
+    max-width:50%;
+  }
+  .card--booster .card-inner aside {
+    font-size:200px;
+  }
+  
+}
+
+.card--booster .card-inner h2  {
+  color:#fff;
+}
+.card--booster .card-inner p {
+  color:rgba(255,255,255,0.9);
+}
+.card--booster a {
+  margin-bottom:0;
+}
+
+.card--booster aside img {
+  position:absolute;
+  top:0;
+  right:0;
+  height:90%;
+  display:none;
+
+  @media(min-width:48rem) {
+    display:block;
+  }
+}
+
+
 // Packages
 .card--package {
   background-color:var(--colour-black);
   height:100%;  
   text-align:left;
 
-  h3 {
-    margin:0 0 var(--spacing-sm) 0;
-  }  
   svg {
     display:none;
     width: 4em;
     max-width:96px;
     height:auto;
-    margin:0 0 var(--spacing-sm) 0;
+    margin:0 0 var(--spacing-h3) 0;
 
     @media(min-width:56rem) {
       display:block;            
     }
+  }
+
+  a {
+    margin-bottom:0;
   }
 }
 .card--package p {
@@ -67,6 +131,7 @@
     list-style-type: square;    
   }
 }
+.card--booster::after,
 .card--work::after {
   content:'';
   position: absolute;
@@ -105,37 +170,5 @@
 
   &::after {
     transform:rotate(45deg) translateY(10%);
-  }
-}
-
-// Card - Team
-
-.card--team {
-  background-color:var(--colour-black);
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  flex-flow:column nowrap;
-
-  img {
-    max-width:var(--spacing-xl);
-    border-radius:50%;
-    margin-bottom:var(--spacing-md);
-  }
-
-  ul {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:row nowrap;
-
-    li a {
-      padding:0 0.5rem; 
-      color:var(--colour-grey__dark);     
-
-      &:hover {
-        color:var(--colour-primary);
-      }
-    }
   }
 }

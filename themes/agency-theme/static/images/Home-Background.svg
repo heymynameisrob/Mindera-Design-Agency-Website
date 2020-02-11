@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1589px" viewBox="0 0 1440 1589" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="1589"></rect>
+        <path d="M1205,0 L942.379238,1245.51499 L644,1312.396 L644,2465.56885 L625.834797,2466 L322.43367,1600.8232 L0,802.284593 L619,663.601 L619,0 L1205,0 Z" id="path-3"></path>
+        <filter x="-4.0%" y="-1.9%" width="108.0%" height="103.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="32" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="32" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M1205,0 L942.379238,1514.51499 L644,1581.396 L644,2734.56885 L625.834797,2735 L322.43367,1869.8232 L0,1071.28459 L619,932.601 L619,0 L1205,0 Z" id="path-5"></path>
+        <filter x="-4.0%" y="-1.8%" width="108.0%" height="103.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="32" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="32" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0.944890203%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#111111" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#111111" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-8" x="0" y="0" width="1440" height="1589"></rect>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL_Home">
+            <g id="Background">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#222222" xlink:href="#path-1"></use>
+                <g id="Decor-Bolt" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(-354.000000, -711.000000)" id="Combined-Shape">
+                        <g>
+                            <use fill="#111111" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+                <g id="Decor-Bolt" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(660.000000, 0.000000)" id="Combined-Shape">
+                        <g>
+                            <use fill="#111111" xlink:href="#path-5"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+                <mask id="mask-9" fill="white">
+                    <use xlink:href="#path-8"></use>
+                </mask>
+                <use id="Overlay" fill="url(#linearGradient-7)" xlink:href="#path-8"></use>
+            </g>
+        </g>
+    </g>
+</svg>

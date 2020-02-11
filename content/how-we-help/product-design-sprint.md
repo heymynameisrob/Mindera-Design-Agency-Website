@@ -15,7 +15,7 @@ According to a McKinsey report, **businesses that utilise design** well see almo
 
 Despite the name, a Product Design Sprint isn't the same as an Agile Sprint. A PDS is **a structured way of working** that uses a combination of Design Thinking and Lean methodologies ideas to **solve big challenges quickly** and velocity to the idea process. 
 
-<div class="full-width"><img class="js-lazy-img" data-src="/images/Design-Sprint-Header.jpg" srcset="/images/Design-Sprint-Header@2x.jpg 2x" alt="Design Sprints in action" /></div>
+<div class="full-width"><img class="lazyload" data-src="/images/Design-Sprint-Header.jpg" srcset="/images/Design-Sprint-Header@2x.jpg 800w" alt="Design Sprints in action" /></div>
 
 ### Why run a sprint?
 Whether you're developing an entirely new product or improving an existing once, it can be hard to get going. Long, drawn out meetings and planning sessions bury you in the minutia of your idea. Even if you eventually build something, you could **spend lots of money** and even more time creating **something that your customers don't want**. A PDS puts structure around the messy process of creativity and innovation. It's a perfect way to get started with any big product challenge, giving you actionable results to get the ball rolling. **Don't take months, take a few weeks**.

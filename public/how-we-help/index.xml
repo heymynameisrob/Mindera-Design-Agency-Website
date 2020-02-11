@@ -22,25 +22,21 @@
   MVP Requirements
   User Feedback
   Team Alignment
-   Design is transforming how organizations work. According to a McKinsey report, businesses that utilise design well see almost double in revenue share and return to shareholders. That is the engine behind massive growth in design-led companies today. But design is vague and hard to get to grips with.</description>
+   According to a McKinsey report, businesses that utilise design well see almost double in revenue share and return to shareholders. That is the engine behind massive growth in design-led companies today. But how to get a well-oiled innovation machine up a running?
+You use a Product Design Sprint.</description>
     </item>
     
     <item>
-      <title>Problem Framing &amp; Discovery</title>
+      <title>Problem Framing</title>
       <link>http://example.org/how-we-help/problem-framing/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/how-we-help/problem-framing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UX &amp; Product Review</title>
-      <link>http://example.org/how-we-help/ux-product-review/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/how-we-help/ux-product-review/</guid>
-      <description></description>
+      <description>What you get   Product Vision
+  Business Context
+  Customer Persona
+  Problem Statement
+   When trying to build products in your business, it can be a challenge not to get carried away and start moving. But before you commit money or time to anything, the first question we should ask is: What are we trying to achieve? What problem are we solving?</description>
     </item>
     
     <item>
@@ -49,25 +45,11 @@
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/how-we-help/growth-accelerator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Brand Sprint</title>
-      <link>http://example.org/how-we-help/digital-branding/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/how-we-help/digital-branding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Accessibility Review</title>
-      <link>http://example.org/how-we-help/accessibility-review/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/how-we-help/accessibility-review/</guid>
-      <description></description>
+      <description>What you get   Growth Plan
+  Growth Experiments
+  Increased customer base
+  Team Alignment
+   </description>
     </item>
     
   </channel>

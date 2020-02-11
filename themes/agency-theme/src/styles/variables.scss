@@ -24,7 +24,7 @@
   --type-size__h2:2rem;
   --type-size__h3:1.75rem;
   --type-size__h4:1.25rem;
-  --type-size__h5:0.75rem;
+  --type-size__h5:1rem;
   --type-size__body-1:1.125rem;
   --type-size__body-2:1rem;
   --type-size__small:0.75rem;
@@ -33,38 +33,43 @@
   --type-lg__headline:1.2;
   --type-lh__body:1.75;
   
-  --type-spacing__headline:0.75em;
+  --type-spacing__headline:0.6em;
   --type-spacing__body:1em;
 
-  --spacing-xxs:0.5rem;
-  --spacing-xs:1rem;
-  --spacing-sm:1.5rem;
+  --spacing-xs:0.5rem;
+  --spacing-sm:1rem;
   --spacing-md:2rem;
-  --spacing-lg:4rem;
-  --spacing-xl:8rem;
-  --spacing-xxl:12rem;
-  --spacing-xxxl:16rem;
+  --spacing-lg:3rem;
+  --spacing-xl:6rem;
+
+  --spacing-h1:calc(var(--type-size__h1) * 0.6);
+  --spacing-h2:calc(var(--type-size__h2) * 0.6);
+  --spacing-h3:calc(var(--type-size__h3) * 0.6);
+  --spacing-h4:calc(var(--type-size__h4) * 0.6);
+  --spacing-body:var(--type-size__body-1);
 
   --border-radius:0.25rem;
   --keyline:1px solid var(--colour-grey);
   --shadow-sm:0px 1px 4px rgba(0,0,0,0.1);
   --shadow-md:0px 2px 1rem rgba(0,0,0,0.16);
   --shadow-lg:0px 0.5rem 2rem rgba(0,0,0,0.16);
-
-  
-
 }
 
 @media(min-width:56rem) {
   :root {
-    --type-size__h1:4rem;
+    --type-size__h1:3.5rem;
     --type-size__h2:2.75rem;
     --type-size__h3:2.5rem;
     --type-size__h4:2rem;
-    --type-size__h5:0.85rem;
+    --type-size__h5:1.125rem;
     --type-size__body-1:1.25rem;
     --type-size__body-2:1.125rem;
     --type-size__small:1rem;
+    
+    --spacing-sm:1.5rem;
+    --spacing-md:2.5rem;
+    --spacing-lg:5rem;
+    --spacing-xl:10rem;
   }
   
 }

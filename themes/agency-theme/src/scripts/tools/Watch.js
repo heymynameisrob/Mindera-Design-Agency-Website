@@ -32,10 +32,12 @@ const animatedHandler = (entries, observer) => {
 // Functions
 const preLoadImages = (images) => {
   images.forEach(img => {
-    let imgSrc = img.dataset.src;
+    let imgSrc = img.getAttribute('data-src');
+    let imgSrcSet = img.getAttribute('data-srcset');
+    img.srcset = imgSrcSet;
     img.src = imgSrc;
     img.classList.add('js-lazy-img__loaded');
-    console.log(imgSrc)
+    console.log(imgSrcSet);
   });
 }
 const applyImage = (image) => {
@@ -53,9 +55,9 @@ if (!('IntersectionObserver' in window)) {
   let images = document.querySelectorAll('.js-lazy-img');
   let toBeAnimated = document.querySelectorAll('.animated');
   preLoadAnimations(toBeAnimated)
-  preLoadImages(images);
+  // preLoadImages(images);
 
 } else {
-  createObserver('.js-lazy-img', lazyLoadHandler);
+  // createObserver('.js-lazy-img', lazyLoadHandler);
   createObserver('.animated', animatedHandler);
 }

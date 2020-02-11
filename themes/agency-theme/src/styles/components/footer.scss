@@ -1,12 +1,7 @@
 #contact {
   position: relative;
   background-color:var(--colour-primary);
-  padding-top:var(--spacing-lg);
-  text-align:center;
-
-  @media(min-width:56rem) {
-    padding-top:var(--spacing-xl);
-  }
+  text-align: center;
 
   .contact__inner {
     text-align:center;
@@ -56,22 +51,36 @@
   display:block;
   width:100%;
   max-width:32rem;
-  margin-top:var(--spacing-lg);
+  margin-top:var(--spacing-h1);
 
   .mc-form-wrap {
-    display:flex;
-    justify-content: flex-start;
-    align-items:stretch;
-    background-color:var(--colour-grey__lightest);
-    border-radius:var(--border-radius);
+    display:flex;    
+    justify-content: center;
+    align-items: center;
+    flex-flow:column nowrap;    
     border:0;
     width:100%;
+
+    @media(min-width:56rem) {
+      background-color:var(--colour-grey__lightest);
+      border-radius:var(--border-radius);
+      flex-flow:row nowrap;
+      justify-content: flex-start;
+      align-items:stretch;
+    }
   }
 
   input[type="submit"] {
     border-top-left-radius:0;
     border-bottom-left-radius:0;
     box-shadow:none;
+    width:100%;
+    margin-top:var(--spacing-xs);
+
+    @media(min-width:56rem) {
+      margin-top:0;
+      width:auto;
+    }
 
     &:hover {
       transform:translate3d(0,0,0);
@@ -79,6 +88,7 @@
   }
 
   input[type="email"] {
+    width:100%;
     padding:var(--spacing-sm);
     color:#888;
     background-color:var(--colour-grey__lightest);
@@ -86,7 +96,7 @@
     border:0;    
     flex:1;
     font-size:calc(var(--type-size__h1) / 3);
-
+    
     &:focus {
       color:var(--colour-black);
       outline:0;
@@ -109,10 +119,27 @@ footer a {
 footer aside p {
   max-width:20ch;
   margin-top:var(--spacing-xs);
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+
+  @media(min-width:48rem) {
+    text-align:center;
+    margin-left:0;
+  }
 }
 footer c address {
   color:var(--type-colour__secondary);
   padding:var(--spacing-xs) 0 0 0;
+  font-style:normal;
+  line-height: 2;
+}
+footer c ul {
+  line-height: 2;
+}
+footer c ul li:first-of-type {
+  font-weight:bold;
+  color:var(--type-colour__primary);
 }
 footer c ul li a{
   padding:var(--spacing-xs) 0 0 0; 

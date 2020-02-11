@@ -1,14 +1,13 @@
 {{ define "main" }}
 <main>
-	<div class="backer-img" style="background-image:url('/images/Home-Background-Image.png');background-size:cover;">
-	</div>
+	<div class="backer-img" style="background-image:url('/images/Home-Background.svg');"></div>
 	<header role="banner">
 		<div class="animated fadeIn">
 			<h1>Make your business go further, faster</h1>
 			<p>Strike helps companies build better products, get closer to their customers and figure out
 				where they’re going next.</p>
 		</div>
-		<a href="#contact"><button class="button button-primary button-lg">Request a call</button></a>
+		<a href="#contact" class="button button-primary button-lg">Request a callback</a>
 	</header>
 	<section class="l-block" id="pitch">
 		<div class="l-inner">
@@ -27,7 +26,7 @@
 				</c>
 				<c>
 					<aside>
-						<img class="js-lazy-img rounded" data-src="/images/Declan-1@2x.jpg" srcset="/images/Declan-1@3x.jpg 3x"
+						<img class="lazyload rounded" data-src="/images/Declan-1@2x.jpg" data-srcset="/images/Declan-1@3x.jpg 3x"
 							alt="Design is a super power" />
 					</aside>
 				</c>
@@ -59,7 +58,7 @@
 					<li>Visual Design</li>
 				</ul>
 			</header>
-			<img src="/images/Mockups@2x.png" alt="Jam Pan" />
+			<img class="lazyload" data-src="/images/Mockups.png" data-srcset="/images/Mockups@2x.png 800w" alt="Jam Pan" />
 			<a href="/posts/jampan-case-study/" class="button button-outline">Read fully case study</a>
 		</div>
 	</section>
@@ -91,7 +90,7 @@
 					</article>
 				</c>
 			</grid>
-			<div class="card animated fadeIn">
+			<div class="card card--booster animated fadeIn">
 				<div class="card-inner">
 					<article>
 						<h2>Design Booster Packs</h2>
@@ -100,7 +99,8 @@
 						<a href="/how-we-help">See booster packs</a>
 					</article>
 					<aside>
-						<img src="/images/Card-Decor.png" srcset="/images/Card-Decor@2x.png 900w" alt="Design Booster Packs" />
+						<img class="lazyload" data-src="/images/Card-Decor.png" data-srcset="/images/Card-Decor@2x.png 800w"
+							alt="Design Booster Packs" />
 					</aside>
 				</div>
 			</div>

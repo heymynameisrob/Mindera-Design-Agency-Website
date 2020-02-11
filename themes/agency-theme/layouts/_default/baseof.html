@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}" theme="dark">
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<meta name="theme-color" content="#111111" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>{{ if not .IsHome }}{{ .Page.Title }} - {{else}} Make your business go further, faster –
 		{{ end }}{{ .Site.Title }}</title>
@@ -28,7 +29,7 @@
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
-	<script src="{{ "main.js" | relURL }}"></script>
+	<script src="{{ "main.js" | relURL }}" defer></script>
 </body>
 
 </html>
