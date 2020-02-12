@@ -5,5 +5,5 @@ category: "Post"
 menu: main
 name: "Blog"
 weight: 4
-draft: true
+draft: false
 ---

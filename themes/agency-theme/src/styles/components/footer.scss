@@ -50,7 +50,7 @@
 #mc_embed_signup {
   display:block;
   width:100%;
-  max-width:32rem;
+  max-width:36rem;
   margin-top:var(--spacing-h1);
 
   .mc-form-wrap {
@@ -71,13 +71,14 @@
   }
 
   input[type="submit"] {
-    border-top-left-radius:0;
-    border-bottom-left-radius:0;
+    
     box-shadow:none;
     width:100%;
     margin-top:var(--spacing-xs);
 
-    @media(min-width:56rem) {
+    @media(min-width:56rem) {      
+      border-top-left-radius:0;
+      border-bottom-left-radius:0;
       margin-top:0;
       width:auto;
     }
@@ -90,12 +91,17 @@
   input[type="email"] {
     width:100%;
     padding:var(--spacing-sm);
+    line-height: 2;
     color:#888;
     background-color:var(--colour-grey__lightest);
     border-radius:var(--border-radius);
     border:0;    
     flex:1;
     font-size:calc(var(--type-size__h1) / 3);
+
+    @media(min-width:56rem) {
+      line-height: 1.25;
+    }
     
     &:focus {
       color:var(--colour-black);

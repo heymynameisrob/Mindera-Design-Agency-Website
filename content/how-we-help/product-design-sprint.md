@@ -24,8 +24,8 @@ Whether you're developing an entirely new product or improving an existing once,
 A Product Design Sprint is essentially a **4 staged process**, based on the Sprint method pioneered by GV. We run a **4-day intense workshop**, followed by **a week of refinement and testing**. These two stages are flanked by a **pre-flight stage **to get everyone on the same page and a **delivery stage** to finalize any details and package everything together.
 
 The goal is to sort through the noise and find an idea to test and validate in under a week. On **Day 1** we work in together to define the challenges and scope of the week. **Day 2** is about deciding what challenges to prototype. **Day 3** is about rapidly building the high fidelity prototype, which is then tested with real users on **Day 4**. Afterwards we take all our learnings, refine our prototype, test again and expand into a planned-out MVP.
-
-<grid columns="4" class="full-width">
+<div class="full-width">
+<grid columns="4">
   <c class="animated fadeInUp">
     <article class="card card--work card--work__red">
       <div class="card--work__inner">
@@ -76,6 +76,7 @@ The goal is to sort through the noise and find an idea to test and validate in u
     </article>
   </c>
 </grid>
+</div>
 
 The outcome of your Product Design Sprint is to **create a realistic prototype** of your innovative idea. We do this so we can **test with real customers**, getting the feedback that matters most. This can cut through a lot of uncertainty and gets right to the core of answering those huge business questions looming over your team. 
 

@@ -87,14 +87,20 @@ h1 ~ a {
   margin-bottom:var(--spacing-h1);
 }
 h2 ~ p,
-h2 ~ a {
-  --type-size:calc(var(--type-size__h2) / 2);
+h2 ~ a {  
   margin-bottom:var(--spacing-h2);
+
+  @media(min-width:56rem) {
+    --type-size:calc(var(--type-size__h3) / 2);
+  }
 }
 h3 ~ p,
-h3 ~ a {
-  --type-size:calc(var(--type-size__h3) / 2);
+h3 ~ a {  
   margin-bottom:var(--spacing-h3);
+
+  @media(min-width:56rem) {
+    --type-size:calc(var(--type-size__h3) / 2);
+  }
 }
 
 small {
