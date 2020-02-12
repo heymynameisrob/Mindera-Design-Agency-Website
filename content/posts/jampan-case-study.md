@@ -2,7 +2,7 @@
 title: "Designing for online recruitment for Jam Pan"
 date: 2020-02-11
 category: "Post"
-draft: true
+draft: false
 ---
 Speak to any business owner and they’ll say that hiring the right talent is one of those ‘make or break’ business skills. When you’re hiring, there’s lots of pressure to get it right. You’re time poor and over-worked (or you wouldn’t be hiring). You’re skipping lunch to go through thousands of CVs’. Bigger companies have a way around this. They outsource to recruiters. People who understand what the right candidate needs less than your own employees do. You now have to go through more candidates, but this time they are ones you haven’t vetted.
 

@@ -2,7 +2,7 @@
 title: "The agency is dead. Long live the agency."
 date: 2020-01-01
 category: "Post"
-draft: true
+draft: false
 ---
 
 Blog post on how and why we started Strike and what we want to achieve with it
