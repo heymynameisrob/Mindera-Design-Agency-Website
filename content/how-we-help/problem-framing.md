@@ -1,7 +1,6 @@
 ---
 title: "Problem Framing"
-description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next"
-value: "Identify opportunity. Find out where your customers are and what they want."
+description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next."
 svg: "svg/package-prob.html"
 date: 2020-01-07
 draft: false
@@ -34,3 +33,4 @@ A problem framing workshop can be achieved in a day or two. Our workshop will he
 ### Get prepared
 To run a problem framing workshop, we usually need 4-5 people who are leading the potential product. That could be PM's, CXO's or Founders. We like to make sure we don't come with any preconceptions or our own ideas, so we don't offer an pre-research or background. This workshop is designed to put some structure around your creative thinking.
 
+{{< how-we-help-callout "Problem Framing" >}}

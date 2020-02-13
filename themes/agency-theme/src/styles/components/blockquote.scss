@@ -11,9 +11,14 @@ blockquote.lg h4 {
   letter-spacing: -0.024em;
 }
 blockquote.lg p {
-  text-align: center;
-  font-size:var(--type-size__h4);
-  font-family:var(--type-stack__headline);
+  text-align: center;  
+  
+  strong {
+    display: block;
+    font-family:var(--type-stack__headline);
+    font-size:var(--type-size__h4);
+  }
+
 }
 blockquote .author {
   display:flex;
@@ -26,4 +31,27 @@ blockquote .author {
     border-radius:50%;
   }
 
+}
+
+.main-carousel .flickity-viewport {
+  transition: height 0.2s;
+}
+.main-carousel .carousel-cell {
+  width:100%;
+  margin-right:var(--spacing-sm);  
+}
+.main-carousel .flickity-button {
+  display:none;
+  background:transparent;
+  color:#fff;
+  
+  @media(min-width:56rem) {
+    display:block;
+  }
+}
+.main-carousel .flickity-button:hover {
+  background:transparent;
+}
+.main-carousel .flickity-page-dots .dot {
+  background:#888;
 }

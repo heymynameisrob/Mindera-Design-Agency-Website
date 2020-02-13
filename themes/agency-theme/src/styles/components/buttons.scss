@@ -25,7 +25,9 @@ button:focus {
   color:#fff;  
   transition: all .2s ease;
 }
-
+.button-sm {  
+  padding:1rem var(--spacing-md);
+}
 .button-lg {
   font-size:calc(var(--type-size__h1) / 2);  
   padding:var(--spacing-h2) var(--spacing-lg);

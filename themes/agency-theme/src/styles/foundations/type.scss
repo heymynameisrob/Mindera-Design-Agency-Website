@@ -26,7 +26,7 @@ h4 {
   font-size:var(--type-size);
   font-weight:bold;
   line-height:calc(var(--type-size) * var(--type-lg__headline));
-  letter-spacing:calc(var(--type-size) / var(--type-spacing__headline));
+  letter-spacing: -0.025em;
   color:var(--type-colour__black);
   margin-bottom:var(--type-spacing__headline);
   margin-left:calc(var(--type-size) / -22);
@@ -82,9 +82,12 @@ p.t-body-2 {
 }
 
 h1 ~ p,
-h1 ~ a {
-  --type-size:calc(var(--type-size__h1) / 2.5);
+h1 ~ a {  
   margin-bottom:var(--spacing-h1);
+
+  @media(min-width:56rem) {
+    --type-size:calc(var(--type-size__h1) / 2.5);
+  }
 }
 h2 ~ p,
 h2 ~ a {  

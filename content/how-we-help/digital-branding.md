@@ -22,9 +22,13 @@ Early startups and growing companies need to pivot and react to their product gr
 
 Branding for growing companies should work like the product process. It should be lean, iterative and fast. It should only focus on the necessities and leave the rest loose and open to change and testing.
 
-<div class="full-width"><img class="lazyload" data-src="/images/Brand-Sprint-Buzz.jpg" alt="Digital Brand Sprint" /></div>
+<div class="full-width"><img class="lazyload" data-src="/images/Buzz-Games-Brand.png" data-srcset="/images/Buzz-Games-Brand@2x.png 800w" alt="Digital Brand Sprint" />
+<small>Visual identity for Buzz Games</small>
+</div>
 
 ### MVP Branding
 Our Digital Branding Sprint is a 2-week workshop that focuses on creating a brand strategy around your vision, company values and market position. We then work iteratively to deliver a visual identity guide equipped with everything a growing company needs, Instead of wasting your time on mocking up your logo onto a billboard or truck to showoff in our agency portfolio. 
 
 We give you a deck template to use for customers and investors alike, a logo, type and colour system and social media assets as well as landing page template design all equipped with a communication guide to help you talk to your customers in your own voice.
+
+{{< how-we-help-callout "Digital Brand Sprint" >}}

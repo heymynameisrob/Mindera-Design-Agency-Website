@@ -2,12 +2,15 @@
 #packages .grid__core-services {
   margin-top:var(--spacing-xl);
 }
+#packages .grid__core-services c {
+  margin-bottom:var(--spacing-lg);
+}
 #packages .grid__core-services article {
   text-align:center;
 }
 #packages .grid__core-services article svg {
   height:auto;
-  width:var(--spacing-lg);
+  width:4rem;
   margin-bottom:var(--spacing-sm);
 }
 

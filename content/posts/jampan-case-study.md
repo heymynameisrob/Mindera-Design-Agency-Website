@@ -124,4 +124,4 @@ We launched the MVP after Phase 2, in late April 2019. This was launched alongsi
 
 In the first three months, after some marketing push, **we saw a ~100% increase in new signups** compared to the original product launch **as well as ~150% activation of existing users** to being fully on-boarded. We received overwhelmingly positive comments about the new look and feel and usable design from both suppliers and clients alike. Months after the launch, I caught up with Jam Pan not too long ago. They happily reported that the new platform had dropped the burden on customer services and growth was steady.
 
-[www.jampan.com](http://www.jampan.com)
+[www.jampan.com](https://www.jam-pan.com)

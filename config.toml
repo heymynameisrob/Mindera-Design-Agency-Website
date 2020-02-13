@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "UK Digital Product Design Studio – Strike by Mindera"
+title = "Strike by Mindera"
 theme= "agency-theme"
 
 [markup.goldmark.renderer]

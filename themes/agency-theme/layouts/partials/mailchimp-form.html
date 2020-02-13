@@ -5,14 +5,43 @@
     method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
     novalidate>
     <div class="mc-form-wrap">
-      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address"
-        required />
+      <div class="mc-field-group">
+        <input type="text" value="" name="FNAME" placeholder="First Name *" id="mce-FNAME" required>
+      </div>
+      <div class="mc-field-group">
+        <input type="text" value="" name="LNAME" placeholder="Company Name *" id="mce-LNAME" required>
+      </div>
+      <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" placeholder="Company email *" id="mce-EMAIL" required>
+      </div>
+      <div class="mc-field-group">
+        <input type="email" value="" name="MMERGE4" placeholder="Location" id="mce-MMERGE4">
+      </div>
+      <div class="mc-field-group mc-select">
+        <select name="MMERGE3" required id="mce-MMERGE3">
+          <option value="">What can we help you with? *</option>
+          <option value="I want to create or improve a digital product">I want to create or improve a digital product
+          </option>
+          <option value="I want training in how to run design workshops">I want training in how to run design workshops
+          </option>
+          <option value="I want a design consultant">I want a design consultant</option>
+          <option value="Other/Not sure yet">Other/Not sure yet</option>
+
+        </select>
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
           name="b_a60d0061cd7885f21be364c85_0cf792ed84" tabindex="-1" value=""></div>
-      <input type="submit" value="Get started" name="subscribe" id="mc-embedded-subscribe"
-        class="button button-primary">
     </div>
+    <input type="submit" value="Request call" name="subscribe" id="mc-embedded-subscribe"
+      class="button button-primary button-full" />
+    <small>You can unsubscribe from these communications at anytime. We won't spam you. For more information on how to
+      unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please
+      review our Privacy Policy.</small>
   </form>
 </div>
 <!--End mc_embed_signup-->
