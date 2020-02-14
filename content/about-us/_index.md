@@ -1,6 +1,6 @@
 ---
 title: "About us"
-description: "Part of Mindera Group, we’re a dedicated product design agency built to be different. A small studio of designers, leaders and strategists that can help you drive breakout success."
+description: "Part of Mindera Group, we’re a design agency with a difference. A small studio of designers, innovators and strategists that can make your business a breakout success."
 date: 2020-01-01
 menu: main
 name: "About us"

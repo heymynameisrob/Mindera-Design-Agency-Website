@@ -4,16 +4,17 @@
     style="background-image:url('/images/Page-Header-Bg.svg');background-size:cover;background-position: bottom center;">
     <h1>{{.Title}}</h1>
   </header>
-
-  <div class="post-grid">
-    {{ range .Paginator.Pages }}
-    <article class="post">
-      <h3>{{.Title}}</h3>
-      <small>{{.Date.Format "2 January" }}</small>
-      <p>{{.Summary}}</p>
-      <a href="{{.Permalink}}">Read full post -></a>
-    </article>
-    {{ end }}
+  <div class="l-inner">
+    <div class="post-grid">
+      {{ range .Paginator.Pages }}
+      <article class="post">
+        <h3>{{.Title}}</h3>
+        <small>{{.Date.Format "2 January" }}</small>
+        <p>{{.Description}}</p>
+        <a href="{{.Permalink}}">Read full post -></a>
+      </article>
+      {{ end }}
+    </div>
   </div>
 </main>
 {{ end }}

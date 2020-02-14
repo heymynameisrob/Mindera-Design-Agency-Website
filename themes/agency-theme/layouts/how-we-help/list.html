@@ -1,15 +1,15 @@
 {{ define "main" }}
 <main>
   {{ .Scratch.Set "title" "How We Help" }}
-  {{ .Scratch.Set "desc" "We have unlocked value for clients of all shapes and sizes. Our product & design practice works through a lens of business growth and design thinking to help your company drive breakout success." }}
+  {{ .Scratch.Set "desc" "Our fast-paced agile approach to product design means you plug directly into our highly-experienced product team. Allowing you to benchmark, innovate or get up a running in no time." }}
   {{ partial "page-header" .}}
   <section class="l-block" id="packages">
     <div class="l-inner">
       <header class="section-header">
         <h2>⚡️</h2>
         <h2>Ready. Set. Strike.</h2>
-        <p>Using design and strategy, we have learned how we can best assist enterprises and startups alike. From our
-          fixed booster packages to tailored services – we’ve got you covered.</p>
+        <p>Our structured booster packages allow you to add value to your product over night. Don't take months, take a
+          few days.</p>
       </header>
       <grid columns="2" class="grid__packages">
         {{ range .Paginator.Pages }}
