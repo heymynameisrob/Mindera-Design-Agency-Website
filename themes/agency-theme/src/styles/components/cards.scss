@@ -168,3 +168,46 @@
     transform:rotate(45deg) translateY(10%);
   }
 }
+
+.card--media {
+  display:block;
+  padding:0;
+  background-color:var(--colour-black);
+  grid-template-columns:minmax(280px, 2fr) 4fr;
+
+  @media(min-width:56rem) {
+    display:grid;
+  }
+
+  aside {    
+    overflow:hidden;  
+    max-height:280px;
+    
+    @media(min-width:56rem) {
+      max-height:none;
+    }
+  }
+  img {
+    object-fit:cover;       
+    height:322px;
+  }
+  .card--media__inner {
+    padding:var(--spacing-md) var(--spacing-sm);
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow:column nowrap;
+
+    @media(min-width:56rem) {
+      padding:var(--spacing-sm);
+    }
+    
+    article {
+      max-width:57ch;
+      margin:auto;
+    }
+    article a {
+      margin:0;
+    }
+  }
+}

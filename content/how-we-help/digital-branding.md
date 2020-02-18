@@ -1,9 +1,8 @@
 ---
 title: "Digital Brand Sprint"
 description: "Build your digital brand up to first-class standards and start to form your identity without a hefty price tag."
-value: "Create impression and brand presence quickly"
 svg: "svg/package-brand"
-date: 2020-01-04
+weight: 6
 draft: false
 ---
 {{< what-you-get "Identity guide" "Brand strategy" "Brand assets" "Tone of voice" >}}

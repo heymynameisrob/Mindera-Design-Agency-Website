@@ -2,7 +2,7 @@
 title: "Problem Framing"
 description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next."
 svg: "svg/package-prob.html"
-date: 2020-01-07
+weight: 2
 draft: false
 ---
 {{< what-you-get "Product Vision" "Business Context" "Customer Persona" "Problem Statement" >}}

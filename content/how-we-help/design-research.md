@@ -2,7 +2,7 @@
 title: "Design Research"
 description: "Observe and understand your potential and existing customers. Get closer to your audience and find out what they want."
 svg: "svg/package-research"
-date: 2020-01-05
+weight: 3
 draft: false
 ---
 {{< what-you-get "Product insights" "Customer feedback" "Problem analysis" "Customer Journey" >}}
@@ -15,6 +15,8 @@ Every new product starts with a **hypothesis**, wether you realise it or not. Th
 
 **This is where Design Research comes in**
 
+<div class="full-width"><img class="lazyload" data-src="/images/Research.png" data-srcset="/images/Research@2x.png 800w" alt="Design Research" /></div>
+
 ### The Problem, The Market & The Product
 One of most common mistakes is **ignoring the market** and the the problem whilst we are too focused on our **first solution**. To make sure our product is successful we need to make sure we're hitting the sweet spot with all three.
 
@@ -22,9 +24,15 @@ A market is a group of **people you want to sell to**. However, this isn't exclu
 
 The problem is the pain points that these people in the market are experiencing. Some of these may be usability problems, some may be pricing or accessibility. Your product is a **solution** to these problems. 
 
-This can seem like a very basic concept, but one that businesses miss a lot of the time. There's an old quote by Harvard Business School professor, Theodore Levitt.
-
-> People don’t want to buy a quarter-inch drill. They want a quarter-inch hole!”
+This can seem like a very basic concept, but one that businesses miss a lot of the time.
+<div class="full-width">
+<blockquote class="lg">
+  <h4>“People don’t want to buy a quarter-inch drill. They want a quarter-inch hole!”</h4>
+  <div class="author">
+    <p><strong>Theodore Levitt</strong></p>
+  </div>
+</blockquote>
+</div>
 
 Although some companies, like Amazon, Google & AirBnB got all the pieces right, there are millions of startups that fail because they "didn't get traction". There's a huge chance that happened because they weren't solving the right problem for the right market. 
 

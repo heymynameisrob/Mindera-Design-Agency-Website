@@ -2,9 +2,8 @@
 title: "Product Design Sprint"
 description: "Highlight big challenges, prove the concept & get it validated by real customers. Compress months of work into a few weeks."
 svg: 'svg/package-pds'
-value: "Highlight big challenges, prove the concept & get it validated by real customers."
 DeckURL: '#'
-date: 2020-01-08
+weight: 1
 draft: false
 ---
 {{< what-you-get "Product Vision" "Product Prototype" "MVP Requirements" "User Feedback" "Team Alignment" >}}

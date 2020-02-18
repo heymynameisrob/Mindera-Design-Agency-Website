@@ -2,7 +2,7 @@
 title: "Growth Accelerator"
 description: "Exponentially grow your customer base, discover your growth targets & focus in on new ideas that will drive breakout success."
 svg: "svg/package-growth"
-date: 2020-01-05
+weight: 4
 draft: false
 ---
 {{< what-you-get "Customer development" "Growth Experiments" "Data strategy & analytics" "Growth Strategy" >}}

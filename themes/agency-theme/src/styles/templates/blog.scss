@@ -2,12 +2,16 @@
 .post-grid,
 .post-content {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(auto, 65ch) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(auto, 67ch) minmax(0, 1fr);
 }
 .post {
   grid-column: 2;
   padding:var(--spacing-lg) 0;
   border-bottom:4px solid var(--colour-grey__darkest); 
+
+  h3 {
+    max-width:20ch;
+  }
 
   small {
     display: block;

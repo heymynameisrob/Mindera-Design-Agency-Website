@@ -1,18 +1,18 @@
 {{ define "main" }}
 <main>
   {{ .Scratch.Set "title" "How We Help" }}
-  {{ .Scratch.Set "desc" "Our fast-paced agile approach to product design means you plug directly into our highly-experienced product team. Allowing you to benchmark, innovate or get up a running in no time." }}
+  {{ .Scratch.Set "desc" "Our fast-paced, agile approach to product design, can help you create and launch products faster and smarter. Allowing you to think big, innovate and get up a running in no time." }}
   {{ partial "page-header" .}}
   <section class="l-block" id="packages">
     <div class="l-inner">
       <header class="section-header">
         <h2>⚡️</h2>
         <h2>Ready. Set. Strike.</h2>
-        <p>Our structured booster packages allow you to add value to your product over night. Don't take months, take a
-          few days.</p>
+        <p>Our design booster packs are structured workshops and sprints that plug you into a highly efficient product
+          team so you can solve big problems, test new ideas and add value to your company at lightning speeds.</p>
       </header>
       <grid columns="2" class="grid__packages">
-        {{ range .Paginator.Pages }}
+        {{ range .Paginator.Pages.ByParam "weight" }}
         <c>
           <article class="card card--package">
             {{ partial .Params.svg }}
@@ -22,30 +22,12 @@
           </article>
         </c>
         {{ end }}
-      </grid>
-      <grid columns="3" class="grid__core-services">
-        <c class="animated fadeIn">
-          <article>
-            {{partial "svg/service-product" .}}
-            <h4>Digital Product Design</h4>
-            <p>Rapid prototyping, UX/UI design, User research, Usability testing, Design systems, Icon Design, Visual
-              Design</p>
-          </article>
-        </c>
-        <c class="animated fadeIn">
-          <article>
-            {{partial "svg/service-innovation" .}}
-            <h4>Innovation training</h4>
-            <p>Workshops, Design Thinking Training, Product Strategy, Growth training, Design Sprints, Creative Thinking
-            </p>
-          </article>
-        </c>
-        <c class="animated fadeIn">
-          <article>
-            {{partial "svg/service-consultancy" .}}
-            <h4>Design consultancy</h4>
-            <p>Design strategy, Hiring, Consultancy on UX team workflow, Developing your design system & design culture
-            </p>
+        <c>
+          <article class="card card--package card--package__last">
+            <h3>Not sure what you're looking for?</h3>
+            <p>We can help you find out where your project is at and which one of our workshops or sprints is right for
+              you? We can also discuss tailor made solutions to fit your needs.</p>
+            <a href="#contact">Request a call →</a>
           </article>
         </c>
       </grid>
@@ -55,9 +37,9 @@
     <div class="l-inner">
       <header class="section-header">
         <h2>How we work</h2>
-        <p>Every great product starts with a simple idea. We believe that good design strategy can not only execute that
-          idea, but also
-          shape it and help it to grow.</p>
+        <p>We work differently to design partners you've work with before. We believe that an agency should run like
+          highly-effective Silicon Valley startup for hire. Helping you grow your business and make better decisions.
+        </p>
       </header>
       <grid columns="4">
         <c class="animated fadeInUp">
@@ -93,7 +75,7 @@
           <article class="card card--work card--work__green">
             <div class="card--work__inner">
               <h4>Lightning fast</h4>
-              <p>Why should a project take 3 months to get going? We work in focused, transparent sprints of work to
+              <p>Why should a project take 3 months to get going? We work in fast-paced, agile sprints of work to
                 build better
                 products, faster.</p>
             </div>
