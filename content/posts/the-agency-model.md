@@ -17,7 +17,7 @@ However, the process that was intrinsic those disruptive startup's success is no
 
 <div class="full-width"><img class="lazyload" data-src="https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Technology" /></div>
 
-### A startup for Hire
+### A startup for hire
 
 **The big questions is 'why can't every company run like an Airbnb, Apple or Uber'?**
 
