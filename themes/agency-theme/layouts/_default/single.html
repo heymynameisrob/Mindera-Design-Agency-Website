@@ -3,6 +3,10 @@
 	{{ .Scratch.Set "title" .Title }}
 	{{ .Scratch.Set "desc" .Description }}
 	{{ partial "page-header" .}}
-	{{ .Content }}
+	<div class="l-inner">
+		<section class="l-block">
+			{{ .Content }}
+		</section>
+	</div>
 </main>
 {{ end }}

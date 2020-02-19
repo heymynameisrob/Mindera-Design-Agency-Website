@@ -3,7 +3,7 @@
 	<div class="l-inner">
 		<div class="contact__inner">
 			<h1>Ready to get started?</h1>
-			<p>Fill in the form below and we'll contact you about getting your project started. Or you can send us an email to
+			<p>Fill in the form below and we'll contact you about getting your project started. Or you can send an email to
 				<a href="mailto:hello@strikedesignlabs.com">hello@strikedesignlabs.com</a></p>
 			{{partial "mailchimp-form" .}}
 		</div>
@@ -47,6 +47,7 @@
 					{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
 					<li><a href="{{ .URL }}" class='{{ if $active }}is-active{{ end }}'>{{ .Name }}</a></li>
 					{{ end }}
+					<li><a href="/privacy-policy">Privacy Policy</a></li>
 				</ul>
 			</c>
 		</grid>
