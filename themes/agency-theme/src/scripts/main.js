@@ -2,6 +2,7 @@ const $mainNav = document.getElementById('nav-links');
 const $mainNavToggle = document.getElementById('toggle-nav-links');
 const $cookieBar = document.getElementById('cookie-bar');
 const $gaAccept = document.getElementById('ga-accept');
+const $gaOptout = document.getElementById('ga-optout');
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -12,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
   $gaAccept.addEventListener('click', () => {
     $cookieBar.classList.remove('is-visible');
     document.cookie = 'seenCookieBar=true; max-age=2628000; path=/';
+  });
+
+  $gaOptout.addEventListener('click', () => {
+    $cookieBar.classList.remove('is-visible');
+    gaOptout();
   })
 
   $mainNavToggle.addEventListener('click', function () {
