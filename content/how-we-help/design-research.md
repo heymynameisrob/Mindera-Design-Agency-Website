@@ -1,12 +1,11 @@
 ---
 title: "Design Research"
 description: "Observe and understand your potential and existing customers. Get closer to your audience and find out what they want."
-svg: "svg/package-research"
+heroImg: "package-research"
+tags: ["Product insights", "Customer feedback", "Problem analysis", "Customer Journey"]
 weight: 3
 draft: false
 ---
-{{< what-you-get "Product insights" "Customer feedback" "Problem analysis" "Customer Journey" >}}
-
 **Most companies start with fabulous idea. Most companies also fail in the first year.** 
 
 You wouldn't think that two are connected but often, they are. The truth is that most companies start because someone has a 'cool new idea' that they and their co-founders think is cool. But cool ideas don't make money. Solving real problems for paying customers makes money.
@@ -15,7 +14,7 @@ Every new product starts with a **hypothesis**, wether you realise it or not. Th
 
 **This is where Design Research comes in**
 
-<div class="full-width"><img class="lazyload" data-src="/images/Research.png" data-srcset="/images/Research@2x.png 800w" alt="Design Research" /></div>
+<div class="full-width"><img class="lazyload" data-src="/images/package-research.png" data-srcset="/images/package-research@2x.png 800w" alt="Design Research" /></div>
 
 ### The Problem, The Market & The Product
 One of most common mistakes is **ignoring the market** and the the problem whilst we are too focused on our **first solution**. To make sure our product is successful we need to make sure we're hitting the sweet spot with all three.

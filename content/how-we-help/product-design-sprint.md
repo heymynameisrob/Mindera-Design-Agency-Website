@@ -1,13 +1,12 @@
 ---
 title: "Product Design Sprint"
 description: "Highlight big challenges, prove the concept & get it validated by real customers. Compress months of work into a few weeks."
-svg: 'svg/package-pds'
+heroImg: "package-pds"
+tags: ["Product Prototype", "MVP Requirements", "User Feedback", "Team Alignment"]
 DeckURL: '#'
 weight: 1
 draft: false
 ---
-{{< what-you-get "Product Vision" "Product Prototype" "MVP Requirements" "User Feedback" "Team Alignment" >}}
-
 According to a McKinsey report, **businesses that utilise design** well see almost **double in revenue share** and return to shareholders. That is the engine behind massive growth in design-led companies today. But how to get a **well-oiled innovation machine** up a running? 
 
 **You use a Product Design Sprint**.

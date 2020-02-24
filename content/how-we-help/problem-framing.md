@@ -1,12 +1,11 @@
 ---
 title: "Problem Framing"
 description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next."
-svg: "svg/package-prob.html"
+heroImg: "package-problem"
+tags: ["Product Vision", "Problem/Solution fit", "Market strategy", "Problem Statement"]
 weight: 2
 draft: false
 ---
-{{< what-you-get "Product Vision" "Business Context" "Customer Persona" "Problem Statement" >}}
-
 When trying to build products in your business, it can be a challenge not to get carried away and start moving. But before you commit money or time to anything, the first question we should ask is: **What are we trying to achieve? What problem are we solving?**
 
 <iframe title="vimeo-player" class="lazyload" data-src="https://player.vimeo.com/video/191566926" class="full-width" width="640" height="360" frameborder="0" allowfullscreen></iframe>

@@ -1,11 +1,11 @@
 ---
 title: "Growth Accelerator"
 description: "Exponentially grow your customer base, discover your growth targets & focus in on new ideas that will drive breakout success."
-svg: "svg/package-growth"
+heroImg: "package-growth"
+tags: ["Customer development", "Growth Experiments", "Data strategy & analytics", "Growth Strategy" ]
 weight: 4
 draft: false
 ---
-{{< what-you-get "Customer development" "Growth Experiments" "Data strategy & analytics" "Growth Strategy" >}}
 
 There's no question that stalled growth is one of the most detrimental and damaging problems for toady's companies, from small startups to large enterprises. A study by the Harvard Business Review showed that 87% of companies endure a peroid of 'stalled growth' and it is reported that when a companies growth stalls they lose, on average, 74% of their market capitalization. But some companies seem to have the formula of exponential growth sorted.
 

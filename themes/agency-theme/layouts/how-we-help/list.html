@@ -11,29 +11,43 @@
         <p>Our design booster packs are structured workshops and sprints that plug you into a highly efficient product
           team so you can solve big problems, test new ideas and add value to your company at lightning speeds.</p>
       </header>
-      <grid columns="2" class="grid__packages">
+      <div class="grid__packages">
         {{ range .Paginator.Pages.ByParam "weight" }}
-        <c>
-          <article class="card card--package">
-            {{ partial .Params.svg }}
-            <h3>{{.Title}}</h3>
-            <p>{{.Description}}</p>
-            <a href="{{.Permalink}}">Find out more →</a>
-          </article>
-        </c>
+        <grid columns="2">
+          <c>
+            <img class="lazyload" data-src="/images/{{.Params.heroImg}}.png"
+              data-srcset="/images/{{.Params.heroImg}}@2x.png 800w" alt="{{.Title}}" />
+          </c>
+          <c>
+            <article>
+              <h3>{{.Title}}</h3>
+              <p>{{.Description}}</p>
+              <div class="post__what-you-get">
+                <ul>
+                  {{ range .Params.tags }}
+                  <li>
+                    <p>{{ . }}</p>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+              <a href="{{.Permalink}}">Learn more →</a>
+            </article>
+          </c>
+        </grid>
         {{ end }}
-        <c>
-          <article class="card card--package card--package__last">
-            <h3>Not sure what you're looking for?</h3>
-            <p>We can help you find out where your project is at and which one of our workshops or sprints is right for
-              you. We can discuss any tailor made solutions to fit your needs.</p>
-            <a href="#contact">Request a call →</a>
-          </article>
-        </c>
-      </grid>
+      </div>
     </div>
   </section>
-  <section class="l-block" id="how-we-work">
+  <section class="l-block not-sure-block">
+    <div class="l-inner">
+      <h3>Not sure what you're looking for?</h3>
+      <p>We can help you find out where your project is at and which one of our workshops or sprints is right for
+        you. We can discuss any tailor made solutions to fit your needs.</p>
+      <a href="#contact" class="button button-outline">Request a call</a>
+    </div>
+  </section>
+  <section class="l-block l-block__pad-in" id="how-we-work">
     <div class="l-inner">
       <header class="section-header">
         <h2>How we work</h2>

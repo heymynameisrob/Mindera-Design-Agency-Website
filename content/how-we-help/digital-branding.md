@@ -1,12 +1,11 @@
 ---
-title: "Digital Brand Sprint"
+title: "Digital Branding"
 description: "Build your digital brand up to first-class standards and start to form your identity without a hefty price tag."
-svg: "svg/package-brand"
+heroImg: "package-branding"
+tags: ["Identity guide", "Brand assets", "Marketing collateral", "Tone of voice"]
 weight: 6
 draft: false
 ---
-{{< what-you-get "Identity guide" "Brand strategy" "Brand assets" "Tone of voice" >}}
-
 Getting the right brand can seem like an ambiguous challenge. How do you communicate your company values and vision through every decision you do? Innovative leaders like Apple, Google & Netflix have dedicated brand teams that make sure everything they output 'feels' like their company. They make sure every part of their identity is deliberate and protected.
 
 This is the kind of brand strategy and visual identity design that brand agencies offer to companies. Deep, researched strategy that takes months, even years to perfect. Brand leaders like Pentagram work closely with their huge-name clients on a day-to-day basis to guide them into making on-brand decisions.
