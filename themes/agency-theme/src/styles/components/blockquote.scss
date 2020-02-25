@@ -10,25 +10,27 @@ blockquote.lg h4 {
   line-height: 1.8;
   letter-spacing: -0.024em;
 }
-blockquote.lg p {
-  text-align: center;  
-  
-  strong {
-    display: block;
-    font-family:var(--type-stack__headline);
-    font-size:var(--type-size__h4);
-  }
 
-}
 blockquote .author {
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow:column nowrap;
+  margin:0 0 var(--spacing-md) 0;
 
+  p {
+    display: block;    
+    text-align: center;    
+    margin:0;    
+    color:var(--type-colour__primary); 
+  }
+  span {
+    color:var(--type-colour__secondary);
+  }
   img {    
     max-width:4rem;
     border-radius:50%;
+    margin-top:var(--spacing-xs);
   }
 
 }
