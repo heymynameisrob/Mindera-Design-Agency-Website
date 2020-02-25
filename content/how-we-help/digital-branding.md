@@ -1,9 +1,10 @@
 ---
-title: "Digital Branding"
-description: "Build your digital brand up to first-class standards and start to form your identity without a hefty price tag."
+title: "Digital Brand Sprint"
+tagline: "Create a memorable brand for your product or service"
+description: "An iterative, agile approach to product and company branding"
 heroImg: "package-branding"
 tags: ["Identity guide", "Brand assets", "Marketing collateral", "Tone of voice"]
-weight: 6
+weight: 5
 draft: false
 ---
 Getting the right brand can seem like an ambiguous challenge. How do you communicate your company values and vision through every decision you do? Innovative leaders like Apple, Google & Netflix have dedicated brand teams that make sure everything they output 'feels' like their company. They make sure every part of their identity is deliberate and protected.

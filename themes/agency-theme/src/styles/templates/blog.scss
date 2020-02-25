@@ -54,6 +54,18 @@
   strong {
     color:var(--type-colour__primary);
   }
+
+  ul {
+    padding-left:1rem;
+    margin-bottom:var(--spacing-md);
+  }
+
+  ul li {
+    padding:0.5rem 0;
+    list-style-type: disc;
+    color:var(--type-colour__secondary);
+    font-size:var(--type-size__body-1);
+  }
 }
 
 .post-content > * {

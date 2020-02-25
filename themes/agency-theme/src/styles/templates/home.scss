@@ -13,7 +13,7 @@
   text-align:center;
 
   img {
-    margin:var(--spacing-lg) 0;    
+    margin:var(--spacing-md) 0;    
   }
 }
 #work header {
@@ -26,20 +26,23 @@
     margin-right:auto;
   }  
 }
-
-#services grid {
-  margin-top:var(--spacing-md);
-}
-#services grid article {
+#services {
   text-align:center;
 }
-#services grid article svg {
-  display:block;
-  margin:0 auto;
-  margin-bottom:var(--spacing-sm);
-  width:6rem;
-  height:auto;
+#services grid {
+  margin:var(--spacing-md) 0;
+  text-align:left;
 }
+#services header {
+  text-align:center;
+
+  p {
+    max-width:65ch;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
 
 #clients {
   text-align:center;

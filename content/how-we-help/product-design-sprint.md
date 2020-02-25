@@ -1,6 +1,7 @@
 ---
 title: "Product Design Sprint"
-description: "Highlight big challenges, prove the concept & get it validated by real customers. Compress months of work into a few weeks."
+tagline: "Create a new product or improve an existing one"
+description: "Solve big problems and test new product ideas all within a week"
 heroImg: "package-pds"
 tags: ["Product Prototype", "MVP Requirements", "User Feedback", "Team Alignment"]
 DeckURL: '#'

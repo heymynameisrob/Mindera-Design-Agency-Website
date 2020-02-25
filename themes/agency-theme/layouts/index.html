@@ -39,6 +39,30 @@
 			</div>
 		</div>
 	</section>
+	<section class="l-block" id="services">
+		<div class="l-inner">
+			<header>
+				<h2>How we can help</h2>
+				<p>We provide workshops and blocks of sprints so you can plug-in to a highly effective product team, to solve
+					big problems and
+					test new ideas, without the agency overhead.</p>
+			</header>
+			<grid columns="3">
+				{{ range first 3 .Paginator.Pages }}
+				<c>
+					<a href="{{.Permalink}}" class="card card--service"
+						style="background-image:url(/images/{{.Params.heroImg}}@2x.png);background-size:cover;">
+						<div class="card--service__overlay">
+							<h4>{{.Params.tagline}}</h4>
+							<p>{{.Title}}</p>
+						</div>
+					</a>
+				</c>
+				{{end}}
+			</grid>
+			<a href="/how-we-help" class="button button-outline">See all services</a>
+		</div>
+	</section>
 	<section class="l-block" id="work">
 		<div class="l-inner">
 			<header>
@@ -55,51 +79,6 @@
 			</header>
 			<img class="lazyload" data-src="/images/Mockups.png" data-srcset="/images/Mockups@2x.png 800w" alt="Jam Pan" />
 			<a href="/posts/jampan-case-study/" class="button button-outline">Read fully case study</a>
-		</div>
-	</section>
-	<section class="l-block" id="services">
-		<div class="l-inner">
-			<grid columns="3">
-				<c class="animated fadeIn">
-					<article>
-						{{partial "svg/service-product" .}}
-						<h4>Digital Product Design</h4>
-						<p>We use a fast-paced, agile approach to product design so
-							we can design smarter, faster & learn from real user data, not
-							guesswork.</p>
-					</article>
-				</c>
-				<c class="animated fadeIn">
-					<article>
-						{{partial "svg/service-innovation" .}}
-						<h4>Innovation Training</h4>
-						<p>Learn the tricks of the trade. From Design Thinking to running Agile Sprints, our training will give you
-							practical, applicable takeaways</p>
-					</article>
-				</c>
-				<c class="animated fadeIn">
-					<article>
-						{{partial "svg/service-consultancy" .}}
-						<h4>Design Consultancy</h4>
-						<p>We help your company design from the inside. We will help your hire and train designers, make better
-							decisions and transform your business.</p>
-					</article>
-				</c>
-			</grid>
-			<div class="card card--booster animated fadeIn">
-				<div class="card-inner">
-					<article>
-						<h2>Design Booster Packs</h2>
-						<p>We use structured design workshops and sprints, so you can plug-in to a highly efficient product
-							team, to solve big problems and test new ideas at lightning speeds.</p>
-						<a href="/how-we-help">See booster packs</a>
-					</article>
-					<aside>
-						<img class="lazyload" data-src="/images/Card-Decor.png" data-srcset="/images/Card-Decor@2x.png 800w"
-							alt="Design Booster Packs" />
-					</aside>
-				</div>
-			</div>
 		</div>
 	</section>
 	<section class="l-block" id="clients">

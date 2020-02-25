@@ -1,5 +1,6 @@
 ---
-title: "Design Research"
+title: "Design Research Sprint"
+tagline: "Get closer to your customers and gather insights"
 description: "Observe and understand your potential and existing customers. Get closer to your audience and find out what they want."
 heroImg: "package-research"
 tags: ["Product insights", "Customer feedback", "Problem analysis", "Customer Journey"]

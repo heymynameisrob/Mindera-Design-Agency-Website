@@ -1,9 +1,10 @@
 ---
-title: "Growth Accelerator"
+title: "Growth Sprint"
+tagline: "Target key areas and drive growth"
 description: "Exponentially grow your customer base, discover your growth targets & focus in on new ideas that will drive breakout success."
 heroImg: "package-growth"
 tags: ["Customer development", "Growth Experiments", "Data strategy & analytics", "Growth Strategy" ]
-weight: 4
+weight: 6
 draft: false
 ---
 
