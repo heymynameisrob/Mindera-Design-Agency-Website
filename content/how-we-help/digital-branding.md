@@ -1,5 +1,5 @@
 ---
-title: "Digital Branding"
+title: "Digital Branding Sprint"
 description: "Build your digital brand up to first-class standards and start to form your identity without a hefty price tag."
 heroImg: "package-branding"
 tags: ["Identity guide", "Brand assets", "Marketing collateral", "Tone of voice"]

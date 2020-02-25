@@ -1,5 +1,5 @@
 ---
-title: "Problem Framing"
+title: "Problem Framing Workshop"
 description: "Frame the problem. Gain insight and intelligence into your customers and figure out where to go next."
 heroImg: "package-problem"
 tags: ["Product Vision", "Problem/Solution fit", "Market strategy", "Problem Statement"]

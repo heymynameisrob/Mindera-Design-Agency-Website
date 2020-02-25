@@ -1,15 +1,15 @@
 {{ define "main" }}
 <main>
   {{ .Scratch.Set "title" "How We Help" }}
-  {{ .Scratch.Set "desc" "Our fast-paced, agile approach to product design, can help you create and launch products faster and smarter. Allowing you to think big, innovate and get up a running in no time." }}
+  {{ .Scratch.Set "desc" "Our fast-paced, agile approach to product design can help you create and launch products faster. Allowing you to think big, innovate and get up a running in no time." }}
   {{ partial "page-header" .}}
   <section class="l-block" id="packages">
     <div class="l-inner">
       <header class="section-header">
         <h2>⚡️</h2>
         <h2>Ready. Set. Strike.</h2>
-        <p>Our design booster packs are structured workshops and sprints that plug you into a highly efficient product
-          team so you can solve big problems, test new ideas and add value to your company at lightning speeds.</p>
+        <p>Our design sprint packages are structured workshops and sprints, allowing you to build your product team as
+          you go. There's no retainers or agency overhead, so you pay for outcomes not just outputs.</p>
       </header>
       <div class="grid__packages">
         {{ range .Paginator.Pages.ByParam "weight" }}
@@ -88,8 +88,8 @@
         <c class="animated fadeInUp">
           <article class="card card--work card--work__green">
             <div class="card--work__inner">
-              <h4>Lightning fast</h4>
-              <p>Why should a project take 3 months to get going? We work in fast-paced, agile sprints of work to
+              <h4>Outcomes, not outputs</h4>
+              <p>Why should a project take 3 months to get going? We work in blocks of sprints to
                 build better
                 products, faster.</p>
             </div>

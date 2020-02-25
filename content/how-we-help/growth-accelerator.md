@@ -1,5 +1,5 @@
 ---
-title: "Growth Accelerator"
+title: "Growth Accelerator Workshop"
 description: "Exponentially grow your customer base, discover your growth targets & focus in on new ideas that will drive breakout success."
 heroImg: "package-growth"
 tags: ["Customer development", "Growth Experiments", "Data strategy & analytics", "Growth Strategy" ]

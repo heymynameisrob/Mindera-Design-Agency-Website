@@ -1,5 +1,5 @@
 ---
-title: "Design Research"
+title: "Research Sprint"
 description: "Observe and understand your potential and existing customers. Get closer to your audience and find out what they want."
 heroImg: "package-research"
 tags: ["Product insights", "Customer feedback", "Problem analysis", "Customer Journey"]
