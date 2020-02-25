@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Strike by Mindera"
 theme= "agency-theme"
+enableRobotsTXT = "true"
 
 [markup.goldmark.renderer]
   unsafe= true
