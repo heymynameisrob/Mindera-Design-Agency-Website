@@ -2,10 +2,10 @@
 title: "Design Research Sprint"
 tagline: "Get closer to your customers and gather insights"
 description: "Observe and understand your potential and existing customers. Get closer to your audience and find out what they want."
-heroImg: "package-research"
+heroImg: "Lead-Research"
 tags: ["Product insights", "Customer feedback", "Problem analysis", "Customer Journey"]
-weight: 3
-draft: false
+weight: 5
+draft: true
 ---
 **Most companies start with fabulous idea. Most companies also fail in the first year.** 
 

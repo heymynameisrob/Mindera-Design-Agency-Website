@@ -1,14 +1,13 @@
-#about-pitch {
+.about-pitch {
   article {
-    max-width:45ch;       
+    max-width:55ch;       
     
     @media(min-width:56rem) {
       margin:0 auto;
     }
   }
-  article p:last-of-type {
-    color:#fff;
-    font-size:1rem;
+  article p strong {
+    color:var(--type-colour__primary);
   }
 }
 

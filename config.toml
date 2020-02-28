@@ -7,9 +7,3 @@ enableRobotsTXT = "true"
 [markup.goldmark.renderer]
   unsafe= true
 
-[menu]
-  [[menu.main]]
-    identifier = "how-we-help"
-    name = "How we help"    
-    url = "/how-we-help/"
-    weight = 1

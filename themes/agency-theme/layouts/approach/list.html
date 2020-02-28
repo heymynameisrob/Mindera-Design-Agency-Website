@@ -1,0 +1,89 @@
+{{ define "main" }}
+<main>
+  {{ .Scratch.Set "title" .Title }}
+  {{ .Scratch.Set "desc" .Description }}
+  {{ partial "page-header" .}}
+  <section class="l-block about-pitch">
+    <div class="l-inner">
+      <grid columns="2">
+        <c>
+          <aside>
+            <img class="lazyload rounded" data-src="/images/About-us.jpg" data-srcset="/images/About-us@2x.jpg 800w"
+              alt="Design is a super power" />
+          </aside>
+        </c>
+        <c>
+          <article>
+            <h2>Times have changed</h2>
+            <p>As businesses are trying to meet higher and higher customer demands, industries are fundamentally
+              changing their landscape. From automobiles (Tesla) to taxis (Uber) to food delivery (Deliveroo), entire
+              industries are having their rules re-written.</p>
+            <p>Typically creative agencies have been the providers of problem-solving and creative thinking for
+              companies. But traditional agency methods are now what's causing businesses to fail.</p>
+            <p><strong>Something has to change.</strong></p>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block" id="testimonial">
+    <div class="l-inner">
+      <blockquote class="animated fadeIn lg">
+        <h4>Whenever a company hires an agency, they are plugging into a 40 year old mindset. Most of your budget is
+          going on box-ticking, hoop-jumping busywork to keep the agency afloat. Really, agencies should function like a
+          startup – entrepreneurs for hire.</h4>
+        <div class="author">
+          <p><strong>Rob Hough</strong></p>
+          <span>Innovation Lead, Strike Design Labs</span>
+        </div>
+      </blockquote>
+    </div>
+  </section>
+  <section class="l-block l-block__pad-in" id="how-we-work">
+    <div class="l-inner">
+      <header class="section-header">
+        <h2>How we work</h2>
+        <p>We work differently to design partners you've work with before. Our mission is for every company to make
+          better design decisions so they can build better products for their customers</p>
+      </header>
+      <grid columns="4">
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__red">
+            <div class="card--work__inner">
+              <h4>No busy-work</h4>
+              <p>We only work in blocks of sprints with measurable outcomes, so you don't waste time and money.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__blue">
+            <div class="card--work__inner">
+              <h4>Remote friendly</h4>
+              <p>We work with clients all around globe, crossing cultural boundaries and barriers. We are adept at
+                making all our services remote friendly.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__purple">
+            <div class="card--work__inner">
+              <h4>Startup for hire</h4>
+              <p>Our purpose-built teams are experts from the startup and agency world with business-building
+                experience.</p>
+            </div>
+          </article>
+        </c>
+        <c class="animated fadeInUp">
+          <article class="card card--work card--work__green">
+            <div class="card--work__inner">
+              <h4>Self organised</h4>
+              <p>We are a collaborative enterprise and we’re the same way with our clients. We work with you, your team
+                and anyone else to achieve the best.</p>
+            </div>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+</main>
+{{ end }}

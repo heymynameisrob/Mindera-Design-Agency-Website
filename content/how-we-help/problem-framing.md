@@ -2,10 +2,10 @@
 title: "Problem Framing Workshop"
 tagline: "Frame the problem and figure out where to go next."
 description: "Understand who our audience is, what success looks like and where to next – all without firing up the production line."
-heroImg: "package-problem"
+heroImg: "Lead-Problem"
 tags: ["Product Vision", "Problem/Solution fit", "Market strategy", "Problem Statement"]
-weight: 2
-draft: false
+weight: 4
+draft: true
 ---
 When trying to build products in your business, it can be a challenge not to get carried away and start moving. But before you commit money or time to anything, the first question we should ask is: **What are we trying to achieve? What problem are we solving?**
 

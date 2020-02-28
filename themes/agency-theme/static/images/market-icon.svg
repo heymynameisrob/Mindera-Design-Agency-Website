@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>market-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XL_Service-Page" transform="translate(-689.000000, -3184.000000)" fill-rule="nonzero">
+            <g id="Benefits" transform="translate(120.000000, 3184.000000)">
+                <g id="Col" transform="translate(415.000000, 0.000000)">
+                    <g id="market-icon" transform="translate(154.000000, 0.000000)">
+                        <circle id="Oval" fill="#222222" cx="36" cy="36" r="36"></circle>
+                        <g id="Circles" transform="translate(16.000000, 16.000000)" fill="#304FFE">
+                            <g id="Large">
+                                <rect id="Rectangle" x="27.2" y="13.6" width="12.8" height="12.8" rx="6.4"></rect>
+                                <rect id="Rectangle" x="0" y="13.6" width="12.8" height="12.8" rx="6.4"></rect>
+                                <rect id="Rectangle" x="13.6" y="0" width="12.8" height="12.8" rx="6.4"></rect>
+                                <rect id="Rectangle" x="13.6" y="27.2" width="12.8" height="12.8" rx="6.4"></rect>
+                            </g>
+                            <g id="Small" transform="translate(3.200000, 3.200000)" opacity="0.5">
+                                <rect id="Rectangle" x="0" y="0" width="7.2" height="7.2" rx="3.6"></rect>
+                                <rect id="Rectangle" x="26.4" y="0" width="7.2" height="7.2" rx="3.6"></rect>
+                                <rect id="Rectangle" x="0.8" y="27.2" width="7.2" height="7.2" rx="3.6"></rect>
+                                <rect id="Rectangle" x="27.2" y="27.2" width="7.2" height="7.2" rx="3.6"></rect>
+                                <rect id="Rectangle" x="13.6" y="13.6" width="7.2" height="7.2" rx="3.6"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

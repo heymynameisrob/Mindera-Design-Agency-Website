@@ -52,7 +52,14 @@
   padding-bottom:var(--spacing-lg);
 
   strong {
-    color:var(--type-colour__primary);
+    color:var(--type-colour__primary);    
+  }
+
+  p {
+    margin-bottom:0;
+  }
+  p+p {
+    margin-top:var(--spacing-sm);
   }
 
   ul {
@@ -98,6 +105,7 @@
 .post-content p + h3 {
   margin-top:var(--spacing-lg);
 }
+
 
 
 .breadcrumb {
@@ -178,5 +186,13 @@
     justify-content: flex-start;
     line-height:1.5;  
     padding-right:var(--spacing-sm);       
+  }
+}
+
+.post-benefits {
+  text-align:center;
+  
+  img {
+    margin:0 auto var(--spacing-sm) auto;
   }
 }

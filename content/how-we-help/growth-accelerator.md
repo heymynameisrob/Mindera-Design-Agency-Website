@@ -1,10 +1,10 @@
 ---
-title: "Growth Sprint"
-tagline: "Target key areas and drive growth"
+title: "Growth Accelerator"
+tagline: "Exponentially grow your customer base by design"
 description: "Exponentially grow your customer base, discover your growth targets & focus in on new ideas that will drive breakout success."
-heroImg: "package-growth"
+heroImg: "Lead-Growth"
 tags: ["Customer development", "Growth Experiments", "Data strategy & analytics", "Growth Strategy" ]
-weight: 6
+weight: 3
 draft: false
 ---
 
@@ -16,7 +16,7 @@ These well-known Silicon valley growth pioneers have utilized a modern phenomeno
 
 Growth hacking has become a small but vibrant community around Silicon Valley including entrepreneurs, marketeers, data scientists and more. Yet despite the vibrancy of the community, planning a strategy around growth and creating a step-by-step process remains tricky.
 
-<div class="full-width"><img class="lazyload" data-src="/images/Growth-Pattern.jpg" data-srcset="/images/Growth-Pattern@2x.jpg 800w" alt="Growth" /></div>
+<div class="full-width"><img class="lazyload" data-src="/images/Growth-Workshop-1.png" data-srcset="/images/Growth-Workshop-1@2x.png 800w" alt="Growth" /></div>
 
 ### Designing for Growth
 Put simply every company needs to grow their customer base if they wish to survive. But a lot of companies lack a concrete method to drive their levers for growth. This is where Design comes in.

@@ -1,0 +1,11 @@
+<div class="icon-block">
+  {{if index .Params 0}}
+  <img src="/images/{{index .Params 0}}.svg" alt="" />
+  {{end}}
+  {{if index .Params 1}}
+  <p><strong>{{index .Params 1}}</strong></p>
+  {{end}}
+  {{if index .Params 2}}
+  <p>{{index .Params 2}}</p>
+  {{end}}
+</div>
