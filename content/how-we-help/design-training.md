@@ -6,7 +6,7 @@ heroImg: "Lead-Design-Training"
 weight: 1
 draft: false
 ---
-According to a McKinsey report, **businesses that utilise design** well see almost **double in revenue share** and return to shareholders. That is the engine behind massive growth in design-led companies today. But how to get a **well-oiled innovation machine** up a running? 
+According to a McKinsey report, **businesses that utilise design** well see almost **double in revenue share** and return to shareholders. That is the engine behind the massive growth in design-led companies today. But how to get a **well-oiled innovation machine** up a running? 
 
 The pressures on companies to innovate is greater than ever. Businesses that use design well are gaining a competitive edge in their industry. 
 
@@ -17,9 +17,9 @@ Our team of design and innovation experts can teach your product team how Sprint
 ### Level up your product team
 Most businesses are undergoing a digital transformation to stop disruption in their market and to meet the pressure for user-centered products from their customers. 
 
-Changing your way of working can be difficult. Many companies try to integrate new processes and often fail. Our programme can help you transform the way work succesfully by integrating with your senior and junior teams.
+Changing your way of working can be difficult. Many companies try to integrate new processes and often fail. Our programme can help you transform the way you work successfully by integrating with your senior and junior teams.
 
-We have worked with hundreds of companies, in loads of different industries, and perfected an innovation programme to help them run like a startup. We now offer that training to their in-house teams, so they can bring the lean agency skill into their companies.
+We have worked with hundreds of companies, in loads of different industries, and perfected an innovation process to help them run like a startup. We now offer that training to their in-house teams, so they can bring the lean agency skill into their companies.
 
 <div class="full-width"><img class="lazyload" data-src="/images/Design-Training-2.png" srcset="/images/Design-Training-2@2x.png 800w" alt="Design Sprints in action" /></div>
 
@@ -45,11 +45,6 @@ Lead by our expert team, we will enable your people to learn the game-changing t
 </grid>
 </div>
 
-Get in touch with our Innovation team to book in a free 30 minute consultation to find out if a Product Design Sprint can help your company create better products, faster.
-
-
-
-
-
+Get in touch with our Innovation team to book in a free 30-minute consultation to find out if a Product Design Sprint can help your company create better products, faster.
 
 
