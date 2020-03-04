@@ -9,6 +9,8 @@ draft: false
 ---
 Whether you're developing an entirely new product or improving an existing one, it can be hard to get going. Long, drawn-out meetings and planning sessions bury you in the minutia of your idea. Even if you eventually build something, you could spend lots of money and even more, time creating something that your customers don't want. 
 
+<div class="full-width"><img class="lazyload" data-src="/images/Design-Sprint-1.png" srcset="/images/Design-Sprint-1@2x.png 800w" alt="Design Sprints in action" /></div>
+
 ### A recipe for innovation
 The gap between a good idea and good execution is what makes or breaks a company. A Product Design Sprint is an invaluable innovation framework for new product development or overhauling an existing solution. Our process is modeled on the battle-tested Design Sprint process from Google Ventures, as well as combined with years of agency experience, behavioral science, and Agile methodologies.
 
@@ -16,8 +18,6 @@ All industries are, in some way, fundamentally changing their landscape. From au
 
 ### Don't bet it all on launch
 Instead of spending months deciding, developing and delegating to launch an MVP, hoping that you got everything right, a Design Sprint allows you to shortcut the traditional 'build-measure-learn' cycle by giving you learnings without ever committing a line of code or a single dollar of marketing spend. Hit the market before any of your competitors by aligning from day 1, testing your product with real customers from the market and getting your MVP planned and ready before you build.
-
-<div class="full-width"><img class="lazyload" data-src="/images/Design-Sprint-1.png" srcset="/images/Design-Sprint-1@2x.png 800w" alt="Design Sprints in action" /></div>
 
 ### How it works
 A Product Design Sprint is essentially a 2-week process, with a pre-flight and delivery process bolted on. We run a 2-day intense workshop, after which we run prototyping and testing sessions with real customers. Then we follow up with a week of refinement and testing.
