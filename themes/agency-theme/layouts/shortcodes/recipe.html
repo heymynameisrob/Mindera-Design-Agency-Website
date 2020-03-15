@@ -1,0 +1,13 @@
+<article class="post-recipe-step">
+  <div class="post-recipe__header">
+    <h4>{{.Get "title" }}</h4>
+  </div>
+  <div class="post-recipe__body">
+    {{.Inner}}
+  </div>
+  {{if .Get "size"}}
+  <div class="post-recipe__footer">
+    <h5>{{.Get "size" }}</h5>
+  </div>
+  {{end}}
+</article>

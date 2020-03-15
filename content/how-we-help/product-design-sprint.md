@@ -1,13 +1,12 @@
 ---
 title: "Product Design Sprint"
 tagline: "Create a new product or improve an existing one"
-description: "A Product Design Sprint with Strike is a step-by-step process that accelerates and orders the fuzzy, ambiguous idea stage of product development to create, test and deliver as effectively as possible. "
+description: "Whether you're developing an entirely new product or improving an existing one, it can be hard to get going. The Design Sprint is a framework proven to help align teams, develop a hypothesis, prototype a solution and testing it rapidly with as little investment as possible."
 heroImg: "Lead-Design-Sprint"
 tags: ["Product Prototype", "MVP Requirements", "User Feedback", "Team Alignment"]
 weight: 2
 draft: false
 ---
-Whether you're developing an entirely new product or improving an existing one, it can be hard to get going. Long, drawn-out meetings and planning sessions bury you in the minutia of your idea. Even if you eventually build something, you could spend lots of money and even more, time creating something that your customers don't want. 
 
 <div class="full-width"><img class="lazyload" data-src="/images/Design-Sprint-1.png" srcset="/images/Design-Sprint-1@2x.png 800w" alt="Design Sprints in action" /></div>
 
@@ -16,15 +15,39 @@ The gap between a good idea and good execution is what makes or breaks a company
 
 All industries are, in some way, fundamentally changing their landscape. From automobiles (Tesla) to food delivery (Deliveroo), entire industries are having their rules re-written. Companies are looking to their ‘superstar creatives’ and asking *‘How do I disrupt the market?’ ‘How do we innovate like Uber and Apple?’ ‘How do we go digital?’*. These people are full of the same answers they’ve been giving their clients for the last 40 years.
 
-### Don't bet it all on launch
-Instead of spending months deciding, developing and delegating to launch an MVP, hoping that you got everything right, a Design Sprint allows you to shortcut the traditional 'build-measure-learn' cycle by giving you learnings without ever committing a line of code or a single dollar of marketing spend. Hit the market before any of your competitors by aligning from day 1, testing your product with real customers from the market and getting your MVP planned and ready before you build.
-
 ### How it works
-A Product Design Sprint is essentially a 2-week process, with a pre-flight and delivery process bolted on. We run a 2-day intense workshop, after which we run prototyping and testing sessions with real customers. Then we follow up with a week of refinement and testing.
+A Product Design Sprint is essentially a 1-week process, with a week of iteration and delivery bolted on afterwards. We run a **2-day intense workshop** at the start, after which we run prototyping and testing sessions with real customers. Then we follow up with a week of refinement and testing.
 
-<div class="full-width"><img class="lazyload" data-src="/images/Design-Sprint-Process.png" srcset="/images/Design-Sprint-Process@2x.png 800w" alt="Design Sprint Process" /></div>
-
-The goal is to sort through the noise and find an idea to test and validate in under a week. On Day 1 we work together to define the challenges and scope of the week. Day 2 is about deciding what challenges to prototype. Day 3 is about rapidly building the high fidelity prototype, which is then tested with real users on Day 4. Afterward, we take all our learnings, refine our prototype, test again and expand into a planned-out MVP.
+<div class="full-width">
+  <grid columns="4">
+    <c>
+      {{< recipe title="Day 1" size="full group">}}
+        <p>Understand problem & define challenges</p>
+        <p>Set goals & understand business needs </p>
+        <p>Create mass of solutions</p>
+      {{< /recipe >}}
+    </c>
+    <c>
+      {{< recipe title="Day 2" size="full group">}}
+        <p>Curate & vote on solutions</p>
+        <p>Map out user journey</p>
+        <p>Plan prototype with storyboard</p>
+      {{< /recipe >}}
+    </c>
+    <c>
+      {{< recipe title="Day 3">}}
+        <p>Build prototype</p>
+        <p>Recruit users for testing</p>        
+      {{< /recipe >}}
+    </c>
+    <c>
+      {{< recipe title="Day 4">}}
+        <p>Test with real users</p>
+        <p>Analyse findings</p>        
+      {{< /recipe >}}
+    </c>
+  </grid>
+</div>
 
 The outcome of your Product Design Sprint is to create a realistic prototype of your innovative idea. We do this so we can test with real customers, getting the feedback that matters most. This can cut through a lot of uncertainty and gets right to the core of answering those huge business questions looming over your team. 
 

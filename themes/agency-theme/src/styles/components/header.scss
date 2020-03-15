@@ -44,8 +44,8 @@ header.post-header {
   display:block;  
   padding:var(--spacing-lg) 0 var(--spacing-sm) 0;
 
-  h2 span {
-    color:var(--colour-grey__darkest);
+  .breadcrumb + h2  {
+    padding-top:var(--spacing-xs);
   }
 }
 

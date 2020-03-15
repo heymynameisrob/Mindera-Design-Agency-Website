@@ -22,9 +22,6 @@
   article {
     max-width:55ch;
   }
-
-  
-
   ul {
     margin-bottom:var(--spacing-body);
 
@@ -69,4 +66,46 @@
 }
 #how-we-work grid {
   margin-top:var(--spacing-lg);
+}
+
+.post-content .post-recipe-step {
+  display: block;
+  border-radius:0.25rem;
+  text-align:center; 
+  background-color:var(--colour-black);
+  height:100%;
+
+  .post-recipe__header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;           
+    background-color:var(--colour-grey__darkest);  
+    
+    h4 {
+      margin:0;
+    }
+  }
+
+  .post-recipe__body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column nowrap;
+    
+    padding:1.5rem;
+
+    p {
+      font-size:1rem;      
+    }
+  }
+  .post-recipe__footer {
+    padding:0.5rem 1rem;
+    background-color:var(--colour-grey__darkest); 
+    text-align:center;
+
+    h5 {
+      margin:0;
+    }
+  }
 }

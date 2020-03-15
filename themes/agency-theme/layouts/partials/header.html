@@ -9,6 +9,6 @@
 		{{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
 		<li><a href="{{ .URL }}" class='{{ if $active }}is-active{{ end }}'>{{ .Name }}</a></li>
 		{{ end }}
-		<li><a href="#contact">Book a consultation</a></li>
+		<li><a href="#contact">Get in touch</a></li>
 	</ul>
 </nav>
