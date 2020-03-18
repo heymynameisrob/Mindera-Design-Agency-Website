@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  fetch('http://fast-eyrie-12998.herokuapp.com/api/strike')
+  fetch('https://fast-eyrie-12998.herokuapp.com/api/strike')
     .then(
       function (response) {
         if (response.status !== 200) {
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             if (!is_free) {
-              fetch(`http://fast-eyrie-12998.herokuapp.com/api/strike/tickets?event=${id}`)
+              fetch(`https://fast-eyrie-12998.herokuapp.com/api/strike/tickets?event=${id}`)
                 .then(response => {
                   if (response.status !== 200) {
                     return
