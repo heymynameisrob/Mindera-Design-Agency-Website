@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  fetch('https://fast-eyrie-12998.herokuapp.com/api/strike', { mode: 'no-cors' })
+  fetch('https://fast-eyrie-12998.herokuapp.com/api/strike')
     .then(
       function (response) {
         if (response.status !== 200) {
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             if (!is_free) {
-              fetch(`https://fast-eyrie-12998.herokuapp.com/api/strike/tickets?event=${id}`, { mode: 'no-cors' })
+              fetch(`https://fast-eyrie-12998.herokuapp.com/api/strike/tickets?event=${id}`)
                 .then(response => {
                   if (response.status !== 200) {
                     return
