@@ -1,0 +1,95 @@
+{{ define "main" }}
+<main>
+  {{ .Scratch.Set "title" .Title }}
+  {{ .Scratch.Set "desc" .Description }}
+  {{ partial "page-header" .}}
+  <section class="l-block">
+    <div class="l-inner">
+      <div class="event-list-wrap">
+        <div class="event-list-header">
+          <p>Name</p>
+          <p>Time</p>
+          <p>Cost</p>
+        </div>
+        <ul id="event-list">
+          <li class="loading-spinner">
+            <div class="lds-dual-ring"></div>
+          </li>
+        </ul>
+      </div><!-- Events list -->
+    </div>
+  </section>
+  <section class="l-block">
+    <div class="l-inner">
+      <header class="section-header">
+        <h2>Transform the way you work</h2>
+        <p>Running effective, remote-first workshops is an essential skill for career growth in 2020. We have packaged
+          all our workshop knowledge into easy-to-follow, remote web classes.</p>
+      </header>
+      <img class="lazyload" data-src="/images/Webinar.png" data-srcset="/images/Webinar@2x.png 800w" alt="Web Class" />
+    </div>
+  </section>
+  <section class="l-block event-icon-blocks">
+    <div class="l-inner">
+      <grid columns="3">
+        <c>
+          <div class="icon-block">
+            <img src="/images/event-icon-1.svg" alt="" />
+            <p><strong>Solve problems faster</strong></p>
+            <p>Structured workshops are the best way to collaboratively solve big problems and find solutions.</p>
+          </div>
+        </c>
+        <c>
+          <div class="icon-block">
+            <img src="/images/event-icon-2.svg" alt="" />
+            <p><strong>Grow your career</strong></p>
+            <p>Become a VIP within your company by learning how to align stakeholders, predictably produce innovation &
+              drive productivity.
+            </p>
+          </div>
+        </c>
+        <c>
+          <div class="icon-block">
+            <img src="/images/event-icon-3.svg" alt="" />
+            <p><strong>Learn how to think</strong></p>
+            <p>Our workshops teach you how to think like a designer. You'll be able to see areas of opportunity that
+              once passed you by.</p>
+          </div>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block events-teacher">
+    <div class="l-inner">
+      <grid columns="2">
+        <c>
+          <aside>
+            <img class="lazyload rounded" data-src="/images/Facilitator-Profile.png"
+              data-srcset="/images/Facilitator-Profile@2x.png 800w" alt="Rob Hough" />
+          </aside>
+        </c>
+        <c>
+          <article>
+            <h2>Your teacher</h2>
+            <p>All our workshops are facilitated remotely by our design & innovation lead, <strong>Rob Hough</strong>.
+            </p>
+            <p>Rob is a designer, speaker and workshop consultant at Strike & Mindera. He has lead over 50 design
+              workshops over
+              the last few years.</p>
+            <p>He partners with product teams to help them design better products faster, transform the way the work or
+              find out where to go next.</p>
+          </article>
+        </c>
+      </grid>
+    </div>
+  </section>
+  <section class="l-block not-sure-block">
+    <div class="l-inner">
+      <h3>Looking for 1-to-1 coaching?</h3>
+      <p>If you want us to train you or your team directly (remote of in-house), please fill out the form below and we
+        can discuss how we can help you.</p>
+      <a href="#contact" class="button button-outline">Get in touch</a>
+    </div>
+  </section>
+</main>
+{{ end }}

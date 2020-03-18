@@ -82,6 +82,7 @@
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
+	<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 	<script src="{{ "main.js" | relURL }}" defer></script>
 	<script>
 		// Set to the same value as the web property used on the site
