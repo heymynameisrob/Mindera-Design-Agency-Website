@@ -3,7 +3,6 @@ title: "Product Design Sprint"
 tagline: "Create a new product or improve an existing one"
 description: "Whether you're developing an entirely new product or improving an existing one, it can be hard to get going. The Design Sprint is a framework proven to help align teams, develop a hypothesis, prototype a solution and testing it rapidly with as little investment as possible."
 heroImg: "Lead-Design-Sprint"
-tags: ["Product Prototype", "MVP Requirements", "User Feedback", "Team Alignment"]
 weight: 2
 draft: false
 ---

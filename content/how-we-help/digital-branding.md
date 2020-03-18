@@ -3,7 +3,6 @@ title: "Digital Brand Sprint"
 tagline: "Create a memorable brand for your product or service"
 description: "An iterative, agile approach to product and company branding"
 heroImg: "package-branding"
-tags: ["Identity guide", "Brand assets", "Marketing collateral", "Tone of voice"]
 weight: 5
 draft: true
 ---

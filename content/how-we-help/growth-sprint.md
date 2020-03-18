@@ -3,7 +3,6 @@ title: "Growth Accelerator Sprint"
 tagline: "Unlock your growth potential faster than ever before"
 description: "No question stalled growth is one of the most detrimental and damaging problems for toady's companies, from small startups to large enterprises. It is reported that when a companies growth stalls they lose, on average, 74% of their market capitalization."
 heroImg: "Lead-Growth"
-tags: ["Customer development", "Growth Experiments", "Data strategy & analytics", "Growth Strategy" ]
 weight: 3
 draft: false
 ---

@@ -3,7 +3,6 @@ title: "Design Research Sprint"
 tagline: "Get closer to your customers and rapidly discover and activate opportunities"
 description: "Most companies start with fabulous idea. Most companies also fail in the first year. You wouldn't think that two are connected but often, they are. The truth is that most companies start because someone has a 'cool new idea' that they and their co-founders think is cool. But cool ideas don't make money. Solving real problems for paying customers makes money."
 heroImg: "Lead-Research"
-tags: ["Product insights", "Customer feedback", "Problem analysis", "Customer Journey"]
 weight: 4
 draft: true
 ---

@@ -3,7 +3,6 @@ title: "Problem Framing Workshop"
 tagline: "Frame the problem and figure out where to go next."
 description: "Understand who our audience is, what success looks like and where to next – all without firing up the production line."
 heroImg: "Lead-Problem"
-tags: ["Product Vision", "Problem/Solution fit", "Market strategy", "Problem Statement"]
 weight: 4
 draft: true
 ---

@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Strike Design Labs"
 theme= "agency-theme"
 enableRobotsTXT = "true"
-
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [markup.goldmark.renderer]
   unsafe= true
 
