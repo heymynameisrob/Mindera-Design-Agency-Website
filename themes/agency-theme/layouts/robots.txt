@@ -1,3 +1,5 @@
 User-agent: *
+Disallow: /about-us/
+Disallow: /how-we-help/
 Disallow: /categories/
 Disallow: /tags/

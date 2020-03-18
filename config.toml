@@ -7,3 +7,7 @@ enableRobotsTXT = "true"
 [markup.goldmark.renderer]
   unsafe= true
 
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "1"
+
