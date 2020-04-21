@@ -1,6 +1,6 @@
 ---
-title: "Design & Innovation Training"
-tagline: "Build an effective design team within your company"
+title: "Innovation Training"
+tagline: "Build an effective product team within your company"
 description: "Get that competitive edge by bringing innovation in-house. From Design Sprints to running Running Agile, our training will give you give you practical, applicable takeaways."
 heroImg: "Lead-Design-Training"
 weight: 1

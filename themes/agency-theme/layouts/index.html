@@ -3,49 +3,16 @@
 	<div class="backer-img" style="background-image:url('/images/Home-Background.svg');"></div>
 	<header role="banner">
 		<div class="animated fadeIn">
-			<h1>Transform your business with Design Sprints</h1>
-			<p>Strike is a business-driven design agency specialising in UX design, product strategy, and rapid innovation.
-			</p>
+			<h1>Transform the way you work by design</h1>
+			<p>Strike is a business-driven design agency helping you build better products, get closer to your customers and figure out where to go next.</p>
 		</div>
 		<a href="#contact" class="button button-primary button-lg primary-cta">Get in touch</a>
-	</header>
-	<section class="l-block" id="pitch">
-		<div class="l-inner">
-			<grid columns="2">
-				<c>
-					<article class="animated fadeIn">
-						<h2>Design is your new secret weapon</h2>
-						<p>According to an inVision report, companies that utilise design properly are proven to
-							increase revenue share,
-							product quality, time to market and customer satisfaction.</p>
-						<p>Design is transforming today's organizations. Using our agile, Design Sprint process you can build better
-							products, get
-							closer to your customers & find out what to do next.</p>
-					</article>
-				</c>
-				<c>
-					<aside>
-						<img class="lazyload rounded" data-src="/images/Declan-1@2x.jpg" data-srcset="/images/Declan-1@3x.jpg 3x"
-							alt="Design is a super power" />
-					</aside>
-				</c>
-			</grid>
-		</div>
-	</section>
-	<section class="l-block" id="testimonial">
-		<div class="l-inner">
-			<div class="animated fadeIn">
-				{{ partial "blockquote-carousel" .}}
-			</div>
-		</div>
-	</section>
+	</header>	
 	<section class="l-block" id="services">
 		<div class="l-inner">
 			<header>
-				<h2>What we do</h2>
-				<p>We work in blocks of sprints so you can plug-in to a highly effective product team, tackling
-					big challenge and
-					testing new ideas, without the agency overhead.</p>
+				<h2>How we can help</h2>				
+				<p>We work like a Silicon Valley startup. Plug into a highly effective product team to tackle big challenges & generate outcomes without the agency dead weight.</p>	
 			</header>
 			<grid columns="3">
 				{{ range first 3 .Paginator.Pages }}
@@ -60,6 +27,13 @@
 				</c>
 				{{end}}
 			</grid>
+		</div>
+	</section>	
+	<section class="l-block" id="testimonial">
+		<div class="l-inner">
+			<div class="animated fadeIn">
+				{{ partial "blockquote-carousel" .}}
+			</div>
 		</div>
 	</section>
 	<section class="l-block" id="work">
